@@ -1,0 +1,12 @@
+[2020-04-13 16:16:43,222] - logger.py] - INFO: test_student:点击"场景仿真"
+[2020-04-13 16:16:43,798] - logger.py] - INFO: test_student:点击"新建场景"
+[2020-04-13 16:16:44,050] - logger.py] - INFO: test_student:填写场景分类
+[2020-04-13 16:16:44,094] - logger.py] - INFO: test_student:点击"添加"按钮
+[2020-04-13 16:16:44,163] - logger.py] - INFO: test_student:点击"下一步"
+[2020-04-13 16:16:44,230] - logger.py] - INFO: test_student:输入场景名称
+[2020-04-13 16:16:44,382] - logger.py] - INFO: test_student:展开难度下拉框
+[2020-04-13 16:16:44,435] - logger.py] - INFO: test_student:选择场景难度
+[2020-04-13 16:16:44,505] - logger.py] - INFO: test_student:输入场景描述
+[2020-04-13 16:16:44,663] - logger.py] - INFO: test_student:点击"下一步"
+[2020-04-13 16:16:44,726] - logger.py] - INFO: test_student:拖拽虚机进拓扑
+[2020-04-13 16:16:45,304] - logger.py] - INFO: test_student:

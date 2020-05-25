@@ -1,0 +1,508 @@
+[2020-05-25 11:01:51,473] - logger.py] - INFO: test_student:点击"性能测试001"
+[2020-05-25 11:01:51,544] - logger.py] - INFO: test_student:等待1秒
+[2020-05-25 11:01:52,546] - logger.py] - INFO: test_student:点击"开始学习"按钮
+[2020-05-25 11:01:52,582] - logger.py] - INFO: test_student:指定时间进行下一步
+[2020-05-25 11:02:29,733] - logger.py] - INFO: test_student:点击"性能测试001"
+[2020-05-25 11:02:29,806] - logger.py] - INFO: test_student:等待1秒
+[2020-05-25 11:02:30,808] - logger.py] - INFO: test_student:点击"开始学习"按钮
+[2020-05-25 11:02:30,842] - logger.py] - INFO: test_student:指定时间进行下一步
+[2020-05-25 11:03:00,864] - logger.py] - INFO: test_student:切换至新窗体
+[2020-05-25 11:03:00,868] - logger.py] - INFO: test_student:点击虚机1开机 按钮
+[2020-05-25 11:03:01,935] - logger.py] - INFO: test_student:等4秒种
+[2020-05-25 11:03:05,935] - logger.py] - INFO: test_student:切换至iframe
+[2020-05-25 11:03:05,968] - logger.py] - INFO: test_student:查看开机状态并截图
+[2020-05-25 11:03:06,323] - logger.py] - INFO: test_student:定时结束
+[2020-05-25 11:20:48,882] - logger.py] - INFO: test_student:点击"性能测试001"
+[2020-05-25 11:20:48,960] - logger.py] - INFO: test_student:等待1秒
+[2020-05-25 11:20:49,960] - logger.py] - INFO: test_student:点击"开始学习"按钮
+[2020-05-25 11:20:50,009] - logger.py] - INFO: test_student:指定时间进行下一步
+[2020-05-25 11:20:53,829] - logger.py] - INFO: test_student2:点击"性能测试001"
+[2020-05-25 11:20:53,909] - logger.py] - INFO: test_student2:等待1秒
+[2020-05-25 11:20:54,910] - logger.py] - INFO: test_student2:点击"开始学习"按钮
+[2020-05-25 11:20:54,959] - logger.py] - INFO: test_student2:指定时间进行下一步
+[2020-05-25 11:20:58,831] - logger.py] - INFO: test_student3:点击"性能测试001"
+[2020-05-25 11:20:58,908] - logger.py] - INFO: test_student3:等待1秒
+[2020-05-25 11:20:59,909] - logger.py] - INFO: test_student3:点击"开始学习"按钮
+[2020-05-25 11:20:59,945] - logger.py] - INFO: test_student3:指定时间进行下一步
+[2020-05-25 11:21:03,829] - logger.py] - INFO: test_student4:点击"性能测试001"
+[2020-05-25 11:21:03,914] - logger.py] - INFO: test_student4:等待1秒
+[2020-05-25 11:21:04,915] - logger.py] - INFO: test_student4:点击"开始学习"按钮
+[2020-05-25 11:21:04,958] - logger.py] - INFO: test_student4:指定时间进行下一步
+[2020-05-25 11:21:08,950] - logger.py] - INFO: test_student5:点击"性能测试001"
+[2020-05-25 11:21:09,026] - logger.py] - INFO: test_student5:等待1秒
+[2020-05-25 11:21:10,028] - logger.py] - INFO: test_student5:点击"开始学习"按钮
+[2020-05-25 11:21:10,075] - logger.py] - INFO: test_student5:指定时间进行下一步
+[2020-05-25 11:21:13,923] - logger.py] - INFO: test_student6:点击"性能测试001"
+[2020-05-25 11:21:14,024] - logger.py] - INFO: test_student6:等待1秒
+[2020-05-25 11:21:15,025] - logger.py] - INFO: test_student6:点击"开始学习"按钮
+[2020-05-25 11:21:15,060] - logger.py] - INFO: test_student6:指定时间进行下一步
+[2020-05-25 11:21:18,975] - logger.py] - INFO: test_student7:点击"性能测试001"
+[2020-05-25 11:21:19,056] - logger.py] - INFO: test_student7:等待1秒
+[2020-05-25 11:21:20,058] - logger.py] - INFO: test_student7:点击"开始学习"按钮
+[2020-05-25 11:21:20,120] - logger.py] - INFO: test_student7:指定时间进行下一步
+[2020-05-25 11:21:23,838] - logger.py] - INFO: test_student8:点击"性能测试001"
+[2020-05-25 11:21:23,908] - logger.py] - INFO: test_student8:等待1秒
+[2020-05-25 11:21:24,909] - logger.py] - INFO: test_student8:点击"开始学习"按钮
+[2020-05-25 11:21:24,967] - logger.py] - INFO: test_student8:指定时间进行下一步
+[2020-05-25 11:21:28,920] - logger.py] - INFO: test_student9:点击"性能测试001"
+[2020-05-25 11:21:28,990] - logger.py] - INFO: test_student9:等待1秒
+[2020-05-25 11:21:29,991] - logger.py] - INFO: test_student9:点击"开始学习"按钮
+[2020-05-25 11:21:30,041] - logger.py] - INFO: test_student9:指定时间进行下一步
+[2020-05-25 11:21:33,914] - logger.py] - INFO: test_student10:点击"性能测试001"
+[2020-05-25 11:21:33,992] - logger.py] - INFO: test_student10:等待1秒
+[2020-05-25 11:21:34,993] - logger.py] - INFO: test_student10:点击"开始学习"按钮
+[2020-05-25 11:21:35,042] - logger.py] - INFO: test_student10:指定时间进行下一步
+[2020-05-25 11:21:38,868] - logger.py] - INFO: test_student11:点击"性能测试001"
+[2020-05-25 11:21:38,945] - logger.py] - INFO: test_student11:等待1秒
+[2020-05-25 11:21:39,947] - logger.py] - INFO: test_student11:点击"开始学习"按钮
+[2020-05-25 11:21:39,995] - logger.py] - INFO: test_student11:指定时间进行下一步
+[2020-05-25 11:21:43,882] - logger.py] - INFO: test_student12:点击"性能测试001"
+[2020-05-25 11:21:43,958] - logger.py] - INFO: test_student12:等待1秒
+[2020-05-25 11:21:44,959] - logger.py] - INFO: test_student12:点击"开始学习"按钮
+[2020-05-25 11:21:45,007] - logger.py] - INFO: test_student12:指定时间进行下一步
+[2020-05-25 11:21:48,895] - logger.py] - INFO: test_student13:点击"性能测试001"
+[2020-05-25 11:21:48,975] - logger.py] - INFO: test_student13:等待1秒
+[2020-05-25 11:21:49,976] - logger.py] - INFO: test_student13:点击"开始学习"按钮
+[2020-05-25 11:21:50,025] - logger.py] - INFO: test_student13:指定时间进行下一步
+[2020-05-25 11:21:54,043] - logger.py] - INFO: test_student14:点击"性能测试001"
+[2020-05-25 11:21:54,124] - logger.py] - INFO: test_student14:等待1秒
+[2020-05-25 11:21:55,125] - logger.py] - INFO: test_student14:点击"开始学习"按钮
+[2020-05-25 11:21:55,173] - logger.py] - INFO: test_student14:指定时间进行下一步
+[2020-05-25 11:21:58,933] - logger.py] - INFO: test_student15:点击"性能测试001"
+[2020-05-25 11:21:59,009] - logger.py] - INFO: test_student15:等待1秒
+[2020-05-25 11:22:00,011] - logger.py] - INFO: test_student15:点击"开始学习"按钮
+[2020-05-25 11:22:00,058] - logger.py] - INFO: test_student15:指定时间进行下一步
+[2020-05-25 11:22:03,883] - logger.py] - INFO: test_student16:点击"性能测试001"
+[2020-05-25 11:22:03,962] - logger.py] - INFO: test_student16:等待1秒
+[2020-05-25 11:22:04,963] - logger.py] - INFO: test_student16:点击"开始学习"按钮
+[2020-05-25 11:22:05,007] - logger.py] - INFO: test_student16:指定时间进行下一步
+[2020-05-25 11:22:08,904] - logger.py] - INFO: test_student17:点击"性能测试001"
+[2020-05-25 11:22:08,972] - logger.py] - INFO: test_student17:等待1秒
+[2020-05-25 11:22:09,973] - logger.py] - INFO: test_student17:点击"开始学习"按钮
+[2020-05-25 11:22:10,023] - logger.py] - INFO: test_student17:指定时间进行下一步
+[2020-05-25 11:22:13,912] - logger.py] - INFO: test_student18:点击"性能测试001"
+[2020-05-25 11:22:13,991] - logger.py] - INFO: test_student18:等待1秒
+[2020-05-25 11:22:14,992] - logger.py] - INFO: test_student18:点击"开始学习"按钮
+[2020-05-25 11:22:15,040] - logger.py] - INFO: test_student18:指定时间进行下一步
+[2020-05-25 11:22:18,911] - logger.py] - INFO: test_student19:点击"性能测试001"
+[2020-05-25 11:22:18,987] - logger.py] - INFO: test_student19:等待1秒
+[2020-05-25 11:22:19,988] - logger.py] - INFO: test_student19:点击"开始学习"按钮
+[2020-05-25 11:22:20,039] - logger.py] - INFO: test_student19:指定时间进行下一步
+[2020-05-25 11:22:23,902] - logger.py] - INFO: test_student20:点击"性能测试001"
+[2020-05-25 11:22:23,974] - logger.py] - INFO: test_student20:等待1秒
+[2020-05-25 11:22:24,976] - logger.py] - INFO: test_student20:点击"开始学习"按钮
+[2020-05-25 11:22:25,022] - logger.py] - INFO: test_student20:指定时间进行下一步
+[2020-05-25 11:22:28,956] - logger.py] - INFO: test_student21:点击"性能测试001"
+[2020-05-25 11:22:29,039] - logger.py] - INFO: test_student21:等待1秒
+[2020-05-25 11:22:30,040] - logger.py] - INFO: test_student21:点击"开始学习"按钮
+[2020-05-25 11:22:30,092] - logger.py] - INFO: test_student21:指定时间进行下一步
+[2020-05-25 11:22:33,880] - logger.py] - INFO: test_student22:点击"性能测试001"
+[2020-05-25 11:22:33,957] - logger.py] - INFO: test_student22:等待1秒
+[2020-05-25 11:22:34,958] - logger.py] - INFO: test_student22:点击"开始学习"按钮
+[2020-05-25 11:22:35,005] - logger.py] - INFO: test_student22:指定时间进行下一步
+[2020-05-25 11:22:39,011] - logger.py] - INFO: test_student23:点击"性能测试001"
+[2020-05-25 11:22:39,087] - logger.py] - INFO: test_student23:等待1秒
+[2020-05-25 11:22:40,088] - logger.py] - INFO: test_student23:点击"开始学习"按钮
+[2020-05-25 11:22:40,140] - logger.py] - INFO: test_student23:指定时间进行下一步
+[2020-05-25 11:22:44,079] - logger.py] - INFO: test_student24:点击"性能测试001"
+[2020-05-25 11:22:44,156] - logger.py] - INFO: test_student24:等待1秒
+[2020-05-25 11:22:45,158] - logger.py] - INFO: test_student24:点击"开始学习"按钮
+[2020-05-25 11:22:45,206] - logger.py] - INFO: test_student24:指定时间进行下一步
+[2020-05-25 11:22:48,890] - logger.py] - INFO: test_student25:点击"性能测试001"
+[2020-05-25 11:22:48,972] - logger.py] - INFO: test_student25:等待1秒
+[2020-05-25 11:22:49,973] - logger.py] - INFO: test_student25:点击"开始学习"按钮
+[2020-05-25 11:22:50,022] - logger.py] - INFO: test_student25:指定时间进行下一步
+[2020-05-25 11:22:53,901] - logger.py] - INFO: test_student26:点击"性能测试001"
+[2020-05-25 11:22:53,990] - logger.py] - INFO: test_student26:等待1秒
+[2020-05-25 11:22:54,991] - logger.py] - INFO: test_student26:点击"开始学习"按钮
+[2020-05-25 11:22:55,039] - logger.py] - INFO: test_student26:指定时间进行下一步
+[2020-05-25 11:22:59,009] - logger.py] - INFO: test_student27:点击"性能测试001"
+[2020-05-25 11:22:59,088] - logger.py] - INFO: test_student27:等待1秒
+[2020-05-25 11:23:00,090] - logger.py] - INFO: test_student27:点击"开始学习"按钮
+[2020-05-25 11:23:00,146] - logger.py] - INFO: test_student27:指定时间进行下一步
+[2020-05-25 11:23:04,028] - logger.py] - INFO: test_student28:点击"性能测试001"
+[2020-05-25 11:23:04,109] - logger.py] - INFO: test_student28:等待1秒
+[2020-05-25 11:23:05,110] - logger.py] - INFO: test_student28:点击"开始学习"按钮
+[2020-05-25 11:23:05,155] - logger.py] - INFO: test_student28:指定时间进行下一步
+[2020-05-25 11:23:09,130] - logger.py] - INFO: test_student29:点击"性能测试001"
+[2020-05-25 11:23:09,229] - logger.py] - INFO: test_student29:等待1秒
+[2020-05-25 11:23:10,230] - logger.py] - INFO: test_student29:点击"开始学习"按钮
+[2020-05-25 11:23:10,304] - logger.py] - INFO: test_student29:指定时间进行下一步
+[2020-05-25 11:23:14,147] - logger.py] - INFO: test_student30:点击"性能测试001"
+[2020-05-25 11:23:14,222] - logger.py] - INFO: test_student30:等待1秒
+[2020-05-25 11:23:15,222] - logger.py] - INFO: test_student30:点击"开始学习"按钮
+[2020-05-25 11:23:15,271] - logger.py] - INFO: test_student30:指定时间进行下一步
+[2020-05-25 11:23:19,041] - logger.py] - INFO: test_student31:点击"性能测试001"
+[2020-05-25 11:23:19,120] - logger.py] - INFO: test_student31:等待1秒
+[2020-05-25 11:23:20,121] - logger.py] - INFO: test_student31:点击"开始学习"按钮
+[2020-05-25 11:23:20,174] - logger.py] - INFO: test_student31:指定时间进行下一步
+[2020-05-25 11:23:24,033] - logger.py] - INFO: test_student32:点击"性能测试001"
+[2020-05-25 11:23:24,102] - logger.py] - INFO: test_student32:等待1秒
+[2020-05-25 11:23:25,103] - logger.py] - INFO: test_student32:点击"开始学习"按钮
+[2020-05-25 11:23:25,154] - logger.py] - INFO: test_student32:指定时间进行下一步
+[2020-05-25 11:23:29,024] - logger.py] - INFO: test_student33:点击"性能测试001"
+[2020-05-25 11:23:29,109] - logger.py] - INFO: test_student33:等待1秒
+[2020-05-25 11:23:30,111] - logger.py] - INFO: test_student33:点击"开始学习"按钮
+[2020-05-25 11:23:30,154] - logger.py] - INFO: test_student33:指定时间进行下一步
+[2020-05-25 11:23:34,131] - logger.py] - INFO: test_student34:点击"性能测试001"
+[2020-05-25 11:23:34,202] - logger.py] - INFO: test_student34:等待1秒
+[2020-05-25 11:23:35,204] - logger.py] - INFO: test_student34:点击"开始学习"按钮
+[2020-05-25 11:23:35,254] - logger.py] - INFO: test_student34:指定时间进行下一步
+[2020-05-25 11:23:39,154] - logger.py] - INFO: test_student35:点击"性能测试001"
+[2020-05-25 11:23:39,237] - logger.py] - INFO: test_student35:等待1秒
+[2020-05-25 11:23:40,238] - logger.py] - INFO: test_student35:点击"开始学习"按钮
+[2020-05-25 11:23:40,286] - logger.py] - INFO: test_student35:指定时间进行下一步
+[2020-05-25 11:23:44,599] - logger.py] - INFO: test_student36:点击"性能测试001"
+[2020-05-25 11:23:44,689] - logger.py] - INFO: test_student36:等待1秒
+[2020-05-25 11:23:45,689] - logger.py] - INFO: test_student36:点击"开始学习"按钮
+[2020-05-25 11:23:45,736] - logger.py] - INFO: test_student36:指定时间进行下一步
+[2020-05-25 11:23:49,699] - logger.py] - INFO: test_student37:点击"性能测试001"
+[2020-05-25 11:23:49,768] - logger.py] - INFO: test_student37:等待1秒
+[2020-05-25 11:23:50,769] - logger.py] - INFO: test_student37:点击"开始学习"按钮
+[2020-05-25 11:23:50,820] - logger.py] - INFO: test_student37:指定时间进行下一步
+[2020-05-25 11:23:54,092] - logger.py] - INFO: test_student38:点击"性能测试001"
+[2020-05-25 11:23:54,174] - logger.py] - INFO: test_student38:等待1秒
+[2020-05-25 11:23:55,175] - logger.py] - INFO: test_student38:点击"开始学习"按钮
+[2020-05-25 11:23:55,220] - logger.py] - INFO: test_student38:指定时间进行下一步
+[2020-05-25 11:23:59,151] - logger.py] - INFO: test_student39:点击"性能测试001"
+[2020-05-25 11:23:59,220] - logger.py] - INFO: test_student39:等待1秒
+[2020-05-25 11:24:00,058] - logger.py] - INFO: test_student22:切换至新窗体
+[2020-05-25 11:24:00,064] - logger.py] - INFO: test_student8:切换至新窗体
+[2020-05-25 11:24:00,067] - logger.py] - INFO: test_student22:点击虚机1开机 按钮
+[2020-05-25 11:24:00,068] - logger.py] - INFO: test_student25:切换至新窗体
+[2020-05-25 11:24:00,069] - logger.py] - INFO: test_student3:切换至新窗体
+[2020-05-25 11:24:00,073] - logger.py] - INFO: test_student25:点击虚机1开机 按钮
+[2020-05-25 11:24:00,073] - logger.py] - INFO: test_student25:点击虚机1开机 按钮
+[2020-05-25 11:24:00,073] - logger.py] - INFO: test_student25:点击虚机1开机 按钮
+[2020-05-25 11:24:00,073] - logger.py] - INFO: test_student4:切换至新窗体
+[2020-05-25 11:24:00,073] - logger.py] - INFO: test_student4:切换至新窗体
+[2020-05-25 11:24:00,074] - logger.py] - INFO: test_student3:点击虚机1开机 按钮
+[2020-05-25 11:24:00,075] - logger.py] - INFO: test_student8:点击虚机1开机 按钮
+[2020-05-25 11:24:00,077] - logger.py] - INFO: test_student4:点击虚机1开机 按钮
+[2020-05-25 11:24:00,093] - logger.py] - INFO: test_student12:切换至新窗体
+[2020-05-25 11:24:00,094] - logger.py] - INFO: test_student11:切换至新窗体
+[2020-05-25 11:24:00,094] - logger.py] - INFO: test_student16:切换至新窗体
+[2020-05-25 11:24:00,095] - logger.py] - INFO: test_student26:切换至新窗体
+[2020-05-25 11:24:00,096] - connectionpool.py] - DEBUG: http://127.0.0.1:49304 "GET /session/13c53ff434aa5b5f48b6a9c49950dbab/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,096] - logger.py] - INFO: test_student2:切换至新窗体
+[2020-05-25 11:24:00,096] - connectionpool.py] - DEBUG: http://127.0.0.1:49467 "GET /session/57f8b1ce8f8e46d925b81bf50f2999a0/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,097] - logger.py] - INFO: test_student20:切换至新窗体
+[2020-05-25 11:24:00,097] - logger.py] - INFO: test_student20:切换至新窗体
+[2020-05-25 11:24:00,098] - connectionpool.py] - DEBUG: http://127.0.0.1:49335 "POST /session/12e15b9ed3f6a9e855e6a348f000314c/window HTTP/1.1" 200 72
+[2020-05-25 11:24:00,098] - remote_connection.py] - DEBUG: Finished Request
+[2020-05-25 11:24:00,098] - remote_connection.py] - DEBUG: GET http://127.0.0.1:65442/session/cff3b4acc1bec6baad301948eb38f617/window_handles {"sessionId": "cff3b4acc1bec6baad301948eb38f617"}
+[2020-05-25 11:24:00,098] - logger.py] - INFO: test_student17:切换至新窗体
+[2020-05-25 11:24:00,098] - remote_connection.py] - DEBUG: GET http://127.0.0.1:49917/session/e0b3cc9dc963aaf217816e719ed3a324/window_handles {"sessionId": "e0b3cc9dc963aaf217816e719ed3a324"}
+[2020-05-25 11:24:00,101] - logger.py] - INFO: test_student12:点击虚机1开机 按钮
+[2020-05-25 11:24:00,101] - logger.py] - INFO: test_student11:点击虚机1开机 按钮
+[2020-05-25 11:24:00,101] - connectionpool.py] - DEBUG: http://127.0.0.1:65442 "GET /session/cff3b4acc1bec6baad301948eb38f617/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,102] - logger.py] - INFO: test_student16:点击虚机1开机 按钮
+[2020-05-25 11:24:00,101] - connectionpool.py] - DEBUG: http://127.0.0.1:49917 "GET /session/e0b3cc9dc963aaf217816e719ed3a324/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,102] - connectionpool.py] - DEBUG: http://127.0.0.1:49635 "GET /session/0524afec2adb168be6248c595de99a09/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,102] - connectionpool.py] - DEBUG: http://127.0.0.1:49493 "GET /session/bc61a2c157e49c4ae8c9f8c547dcaa0c/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,102] - remote_connection.py] - DEBUG: POST http://127.0.0.1:49304/session/13c53ff434aa5b5f48b6a9c49950dbab/element {"using": "xpath", "value": ".//*[@id='app']/div/div[1]/div[2]/div/div/span[3]", "sessionId": "13c53ff434aa5b5f48b6a9c49950dbab"}
+[2020-05-25 11:24:00,105] - logger.py] - INFO: test_student2:点击虚机1开机 按钮
+[2020-05-25 11:24:00,105] - remote_connection.py] - DEBUG: POST http://127.0.0.1:49467/session/57f8b1ce8f8e46d925b81bf50f2999a0/element {"using": "xpath", "value": ".//*[@id='app']/div/div[1]/div[2]/div/div/span[3]", "sessionId": "57f8b1ce8f8e46d925b81bf50f2999a0"}
+[2020-05-25 11:24:00,106] - logger.py] - INFO: test_student26:点击虚机1开机 按钮
+[2020-05-25 11:24:00,106] - connectionpool.py] - DEBUG: http://127.0.0.1:49635 "POST /session/0524afec2adb168be6248c595de99a09/window HTTP/1.1" 200 72
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student13:切换至新窗体
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student13:切换至新窗体
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student13:切换至新窗体
+[2020-05-25 11:24:00,107] - remote_connection.py] - DEBUG: POST http://127.0.0.1:49917/session/e0b3cc9dc963aaf217816e719ed3a324/element {"using": "xpath", "value": ".//*[@id='app']/div/div[1]/div[2]/div/div/span[3]", "sessionId": "e0b3cc9dc963aaf217816e719ed3a324"}
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student13:切换至新窗体
+[2020-05-25 11:24:00,107] - remote_connection.py] - DEBUG: POST http://127.0.0.1:49917/session/e0b3cc9dc963aaf217816e719ed3a324/element {"using": "xpath", "value": ".//*[@id='app']/div/div[1]/div[2]/div/div/span[3]", "sessionId": "e0b3cc9dc963aaf217816e719ed3a324"}
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student17:点击虚机1开机 按钮
+[2020-05-25 11:24:00,107] - remote_connection.py] - DEBUG: POST http://127.0.0.1:49917/session/e0b3cc9dc963aaf217816e719ed3a324/element {"using": "xpath", "value": ".//*[@id='app']/div/div[1]/div[2]/div/div/span[3]", "sessionId": "e0b3cc9dc963aaf217816e719ed3a324"}
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student17:点击虚机1开机 按钮
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student19:切换至新窗体
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student17:点击虚机1开机 按钮
+[2020-05-25 11:24:00,107] - logger.py] - INFO: test_student19:切换至新窗体
+[2020-05-25 11:24:00,108] - logger.py] - INFO: test_student20:点击虚机1开机 按钮
+[2020-05-25 11:24:00,108] - remote_connection.py] - DEBUG: POST http://127.0.0.1:49493/session/bc61a2c157e49c4ae8c9f8c547dcaa0c/element {"using": "xpath", "value": ".//*[@id='app']/div/div[1]/div[2]/div/div/span[3]", "sessionId": "bc61a2c157e49c4ae8c9f8c547dcaa0c"}
+[2020-05-25 11:24:00,113] - logger.py] - INFO: test_student19:点击虚机1开机 按钮
+[2020-05-25 11:24:00,114] - logger.py] - INFO: test_student13:点击虚机1开机 按钮
+[2020-05-25 11:24:00,114] - logger.py] - INFO: test_student18:切换至新窗体
+[2020-05-25 11:24:00,117] - logger.py] - INFO: test_student18:点击虚机1开机 按钮
+[2020-05-25 11:24:00,128] - logger.py] - INFO: test_student10:切换至新窗体
+[2020-05-25 11:24:00,128] - logger.py] - INFO: test_student:切换至新窗体
+[2020-05-25 11:24:00,130] - logger.py] - INFO: test_student15:切换至新窗体
+[2020-05-25 11:24:00,133] - logger.py] - INFO: test_student10:点击虚机1开机 按钮
+[2020-05-25 11:24:00,135] - logger.py] - INFO: test_student:点击虚机1开机 按钮
+[2020-05-25 11:24:00,135] - logger.py] - INFO: test_student15:点击虚机1开机 按钮
+[2020-05-25 11:24:00,140] - logger.py] - INFO: test_student9:切换至新窗体
+[2020-05-25 11:24:00,142] - logger.py] - INFO: test_student21:切换至新窗体
+[2020-05-25 11:24:00,144] - logger.py] - INFO: test_student9:点击虚机1开机 按钮
+[2020-05-25 11:24:00,146] - logger.py] - INFO: test_student21:点击虚机1开机 按钮
+[2020-05-25 11:24:00,164] - logger.py] - INFO: test_student6:切换至新窗体
+[2020-05-25 11:24:00,168] - logger.py] - INFO: test_student6:点击虚机1开机 按钮
+[2020-05-25 11:24:00,174] - logger.py] - INFO: test_student33:切换至新窗体
+[2020-05-25 11:24:00,178] - logger.py] - INFO: test_student5:切换至新窗体
+[2020-05-25 11:24:00,178] - logger.py] - INFO: test_student5:切换至新窗体
+[2020-05-25 11:24:00,178] - logger.py] - INFO: test_student32:切换至新窗体
+[2020-05-25 11:24:00,178] - logger.py] - INFO: test_student27:切换至新窗体
+[2020-05-25 11:24:00,178] - logger.py] - INFO: test_student27:切换至新窗体
+[2020-05-25 11:24:00,178] - logger.py] - INFO: test_student32:切换至新窗体
+[2020-05-25 11:24:00,178] - remote_connection.py] - DEBUG: GET http://127.0.0.1:65524/session/a8816329169da4c7c39a0dd04e2a451c/window_handles {"sessionId": "a8816329169da4c7c39a0dd04e2a451c"}
+[2020-05-25 11:24:00,180] - logger.py] - INFO: test_student33:点击虚机1开机 按钮
+[2020-05-25 11:24:00,180] - connectionpool.py] - DEBUG: http://127.0.0.1:49947 "GET /session/b3988875ab9e0a38dda184d876a4a67e/window_handles HTTP/1.1" 200 157
+[2020-05-25 11:24:00,184] - logger.py] - INFO: test_student5:点击虚机1开机 按钮
+[2020-05-25 11:24:00,184] - logger.py] - INFO: test_student5:点击虚机1开机 按钮
+[2020-05-25 11:24:00,184] - logger.py] - INFO: test_student5:点击虚机1开机 按钮
+[2020-05-25 11:24:00,184] - logger.py] - INFO: test_student32:点击虚机1开机 按钮
+[2020-05-25 11:24:00,184] - logger.py] - INFO: test_student32:点击虚机1开机 按钮
+[2020-05-25 11:24:00,184] - logger.py] - INFO: test_student27:点击虚机1开机 按钮
+[2020-05-25 11:24:00,194] - logger.py] - INFO: test_student28:切换至新窗体
+[2020-05-25 11:24:00,194] - logger.py] - INFO: test_student23:切换至新窗体
+[2020-05-25 11:24:00,194] - remote_connection.py] - DEBUG: GET http://127.0.0.1:50002/session/47e1bba53976b23eba7bef39b042e936/window_handles {"sessionId": "47e1bba53976b23eba7bef39b042e936"}
+[2020-05-25 11:24:00,198] - logger.py] - INFO: test_student23:点击虚机1开机 按钮
+[2020-05-25 11:24:00,199] - logger.py] - INFO: test_student28:点击虚机1开机 按钮
+[2020-05-25 11:24:00,221] - logger.py] - INFO: test_student39:点击"开始学习"按钮
+[2020-05-25 11:24:00,224] - logger.py] - INFO: test_student38:切换至新窗体
+[2020-05-25 11:24:00,235] - logger.py] - INFO: test_student38:点击虚机1开机 按钮
+[2020-05-25 11:24:00,239] - logger.py] - INFO: test_student31:切换至新窗体
+[2020-05-25 11:24:00,245] - logger.py] - INFO: test_student31:点击虚机1开机 按钮
+[2020-05-25 11:24:00,251] - logger.py] - INFO: test_student7:切换至新窗体
+[2020-05-25 11:24:00,257] - logger.py] - INFO: test_student7:点击虚机1开机 按钮
+[2020-05-25 11:24:00,287] - logger.py] - INFO: test_student14:切换至新窗体
+[2020-05-25 11:24:00,288] - logger.py] - INFO: test_student39:指定时间进行下一步
+[2020-05-25 11:24:00,288] - logger.py] - INFO: test_student39:切换至新窗体
+[2020-05-25 11:24:00,289] - logger.py] - INFO: test_student24:切换至新窗体
+[2020-05-25 11:24:00,291] - logger.py] - INFO: test_student14:点击虚机1开机 按钮
+[2020-05-25 11:24:00,292] - logger.py] - INFO: test_student34:切换至新窗体
+[2020-05-25 11:24:00,293] - logger.py] - INFO: test_student39:点击虚机1开机 按钮
+[2020-05-25 11:24:00,295] - logger.py] - INFO: test_student24:点击虚机1开机 按钮
+[2020-05-25 11:24:00,297] - logger.py] - INFO: test_student34:点击虚机1开机 按钮
+[2020-05-25 11:24:00,307] - logger.py] - INFO: test_student35:切换至新窗体
+[2020-05-25 11:24:00,311] - logger.py] - INFO: test_student35:点击虚机1开机 按钮
+[2020-05-25 11:24:00,312] - logger.py] - INFO: test_student30:切换至新窗体
+[2020-05-25 11:24:00,317] - logger.py] - INFO: test_student30:点击虚机1开机 按钮
+[2020-05-25 11:24:00,339] - logger.py] - INFO: test_student29:切换至新窗体
+[2020-05-25 11:24:00,344] - logger.py] - INFO: test_student29:点击虚机1开机 按钮
+[2020-05-25 11:24:00,744] - logger.py] - INFO: test_student36:切换至新窗体
+[2020-05-25 11:24:00,748] - logger.py] - INFO: test_student36:点击虚机1开机 按钮
+[2020-05-25 11:24:00,829] - logger.py] - INFO: test_student37:切换至新窗体
+[2020-05-25 11:24:00,834] - logger.py] - INFO: test_student37:点击虚机1开机 按钮
+[2020-05-25 11:24:01,493] - logger.py] - INFO: test_student31:等4秒种
+[2020-05-25 11:24:01,493] - logger.py] - INFO: test_student11:等4秒种
+[2020-05-25 11:24:01,499] - logger.py] - INFO: test_student33:等4秒种
+[2020-05-25 11:24:01,543] - logger.py] - INFO: test_student26:等4秒种
+[2020-05-25 11:24:01,643] - logger.py] - INFO: test_student20:等4秒种
+[2020-05-25 11:24:01,648] - logger.py] - INFO: test_student4:等4秒种
+[2020-05-25 11:24:01,693] - logger.py] - INFO: test_student21:等4秒种
+[2020-05-25 11:24:01,709] - logger.py] - INFO: test_student10:等4秒种
+[2020-05-25 11:24:01,716] - logger.py] - INFO: test_student9:等4秒种
+[2020-05-25 11:24:01,753] - logger.py] - INFO: test_student22:等4秒种
+[2020-05-25 11:24:01,762] - logger.py] - INFO: test_student25:等4秒种
+[2020-05-25 11:24:01,895] - logger.py] - INFO: test_student5:等4秒种
+[2020-05-25 11:24:01,897] - logger.py] - INFO: test_student:等4秒种
+[2020-05-25 11:24:01,921] - logger.py] - INFO: test_student23:等4秒种
+[2020-05-25 11:24:01,928] - logger.py] - INFO: test_student16:等4秒种
+[2020-05-25 11:24:01,984] - logger.py] - INFO: test_student32:等4秒种
+[2020-05-25 11:24:02,131] - logger.py] - INFO: test_student6:等4秒种
+[2020-05-25 11:24:02,178] - logger.py] - INFO: test_student7:等4秒种
+[2020-05-25 11:24:02,248] - logger.py] - INFO: test_student3:等4秒种
+[2020-05-25 11:24:02,288] - logger.py] - INFO: test_student36:等4秒种
+[2020-05-25 11:24:02,361] - logger.py] - INFO: test_student2:等4秒种
+[2020-05-25 11:24:02,361] - logger.py] - INFO: test_student2:等4秒种
+[2020-05-25 11:24:02,361] - logger.py] - INFO: test_student35:等4秒种
+[2020-05-25 11:24:02,361] - logger.py] - INFO: test_student2:等4秒种
+[2020-05-25 11:24:02,361] - logger.py] - INFO: test_student35:等4秒种
+[2020-05-25 11:24:02,361] - logger.py] - INFO: test_student14:等4秒种
+[2020-05-25 11:24:02,406] - logger.py] - INFO: test_student12:等4秒种
+[2020-05-25 11:24:02,506] - logger.py] - INFO: test_student8:等4秒种
+[2020-05-25 11:24:02,506] - logger.py] - INFO: test_student19:等4秒种
+[2020-05-25 11:24:02,525] - logger.py] - INFO: test_student24:等4秒种
+[2020-05-25 11:24:02,539] - logger.py] - INFO: test_student29:等4秒种
+[2020-05-25 11:24:02,545] - logger.py] - INFO: test_student28:等4秒种
+[2020-05-25 11:24:02,555] - logger.py] - INFO: test_student38:等4秒种
+[2020-05-25 11:24:02,578] - logger.py] - INFO: test_student37:等4秒种
+[2020-05-25 11:24:02,594] - logger.py] - INFO: test_student18:等4秒种
+[2020-05-25 11:24:02,621] - logger.py] - INFO: test_student17:等4秒种
+[2020-05-25 11:24:02,660] - logger.py] - INFO: test_student27:等4秒种
+[2020-05-25 11:24:02,685] - logger.py] - INFO: test_student15:等4秒种
+[2020-05-25 11:24:02,692] - logger.py] - INFO: test_student13:等4秒种
+[2020-05-25 11:24:02,694] - logger.py] - INFO: test_student34:等4秒种
+[2020-05-25 11:24:02,694] - logger.py] - INFO: test_student30:等4秒种
+[2020-05-25 11:24:05,455] - logger.py] - ERROR: test_student39:【点击虚机1开机 按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-25 11:24:05,456] - logger.py] - INFO: test_student39:等4秒种
+[2020-05-25 11:24:05,494] - logger.py] - INFO: test_student11:切换至iframe
+[2020-05-25 11:24:05,495] - logger.py] - INFO: test_student31:切换至iframe
+[2020-05-25 11:24:05,505] - logger.py] - INFO: test_student33:切换至iframe
+[2020-05-25 11:24:05,544] - logger.py] - INFO: test_student26:切换至iframe
+[2020-05-25 11:24:05,655] - logger.py] - INFO: test_student20:切换至iframe
+[2020-05-25 11:24:05,662] - logger.py] - INFO: test_student4:切换至iframe
+[2020-05-25 11:24:05,695] - logger.py] - INFO: test_student21:切换至iframe
+[2020-05-25 11:24:05,711] - logger.py] - INFO: test_student10:切换至iframe
+[2020-05-25 11:24:05,720] - logger.py] - INFO: test_student9:切换至iframe
+[2020-05-25 11:24:05,754] - logger.py] - INFO: test_student22:切换至iframe
+[2020-05-25 11:24:05,764] - logger.py] - INFO: test_student25:切换至iframe
+[2020-05-25 11:24:05,897] - logger.py] - INFO: test_student5:切换至iframe
+[2020-05-25 11:24:05,899] - logger.py] - INFO: test_student:切换至iframe
+[2020-05-25 11:24:05,927] - logger.py] - INFO: test_student23:切换至iframe
+[2020-05-25 11:24:05,934] - logger.py] - INFO: test_student16:切换至iframe
+[2020-05-25 11:24:05,985] - logger.py] - INFO: test_student32:切换至iframe
+[2020-05-25 11:24:06,133] - logger.py] - INFO: test_student6:切换至iframe
+[2020-05-25 11:24:06,143] - logger.py] - INFO: test_student11:查看开机状态并截图
+[2020-05-25 11:24:06,145] - logger.py] - INFO: test_student33:查看开机状态并截图
+[2020-05-25 11:24:06,172] - logger.py] - INFO: test_student31:查看开机状态并截图
+[2020-05-25 11:24:06,180] - logger.py] - INFO: test_student7:切换至iframe
+[2020-05-25 11:24:06,249] - logger.py] - INFO: test_student3:切换至iframe
+[2020-05-25 11:24:06,271] - logger.py] - INFO: test_student10:查看开机状态并截图
+[2020-05-25 11:24:06,276] - logger.py] - INFO: test_student21:查看开机状态并截图
+[2020-05-25 11:24:06,285] - logger.py] - INFO: test_student5:查看开机状态并截图
+[2020-05-25 11:24:06,289] - logger.py] - INFO: test_student:查看开机状态并截图
+[2020-05-25 11:24:06,289] - logger.py] - INFO: test_student:查看开机状态并截图
+[2020-05-25 11:24:06,289] - logger.py] - INFO: test_student32:查看开机状态并截图
+[2020-05-25 11:24:06,289] - logger.py] - INFO: test_student32:查看开机状态并截图
+[2020-05-25 11:24:06,290] - logger.py] - INFO: test_student36:切换至iframe
+[2020-05-25 11:24:06,290] - remote_connection.py] - DEBUG: POST http://127.0.0.1:65414/session/66bc8d8d466bf8fd801c226f492ce96b/element {"using": "xpath", "value": ".//*[@id='status']", "sessionId": "66bc8d8d466bf8fd801c226f492ce96b"}
+[2020-05-25 11:24:06,320] - logger.py] - INFO: test_student6:查看开机状态并截图
+[2020-05-25 11:24:06,330] - logger.py] - INFO: test_student20:查看开机状态并截图
+[2020-05-25 11:24:06,362] - logger.py] - INFO: test_student14:切换至iframe
+[2020-05-25 11:24:06,363] - logger.py] - INFO: test_student2:切换至iframe
+[2020-05-25 11:24:06,364] - logger.py] - INFO: test_student35:切换至iframe
+[2020-05-25 11:24:06,406] - logger.py] - INFO: test_student12:切换至iframe
+[2020-05-25 11:24:06,508] - logger.py] - INFO: test_student19:切换至iframe
+[2020-05-25 11:24:06,509] - logger.py] - INFO: test_student8:切换至iframe
+[2020-05-25 11:24:06,535] - logger.py] - INFO: test_student24:切换至iframe
+[2020-05-25 11:24:06,551] - logger.py] - INFO: test_student29:切换至iframe
+[2020-05-25 11:24:06,551] - remote_connection.py] - DEBUG: POST http://127.0.0.1:50733/session/f00487850f72a93a8d1e909c272c6447/element {"using": "xpath", "value": ".//*[@id='login']/div/div[2]/form/div[1]/div/div[1]/input", "sessionId": "f00487850f72a93a8d1e909c272c6447"}
+[2020-05-25 11:24:06,553] - logger.py] - INFO: test_student28:切换至iframe
+[2020-05-25 11:24:06,557] - logger.py] - INFO: test_student38:切换至iframe
+[2020-05-25 11:24:06,580] - logger.py] - INFO: test_student37:切换至iframe
+[2020-05-25 11:24:06,596] - logger.py] - INFO: test_student18:切换至iframe
+[2020-05-25 11:24:06,623] - logger.py] - INFO: test_student17:切换至iframe
+[2020-05-25 11:24:06,663] - logger.py] - INFO: test_student27:切换至iframe
+[2020-05-25 11:24:06,670] - logger.py] - INFO: test_student7:查看开机状态并截图
+[2020-05-25 11:24:06,674] - logger.py] - INFO: test_student4:查看开机状态并截图
+[2020-05-25 11:24:06,686] - logger.py] - INFO: test_student15:切换至iframe
+[2020-05-25 11:24:06,694] - logger.py] - INFO: test_student13:切换至iframe
+[2020-05-25 11:24:06,695] - logger.py] - INFO: test_student30:切换至iframe
+[2020-05-25 11:24:06,696] - logger.py] - INFO: test_student34:切换至iframe
+[2020-05-25 11:24:06,881] - logger.py] - INFO: test_student22:查看开机状态并截图
+[2020-05-25 11:24:07,021] - logger.py] - INFO: test_student25:查看开机状态并截图
+[2020-05-25 11:24:07,049] - logger.py] - INFO: test_student14:查看开机状态并截图
+[2020-05-25 11:24:07,052] - logger.py] - INFO: test_student3:查看开机状态并截图
+[2020-05-25 11:24:07,052] - logger.py] - INFO: test_student16:查看开机状态并截图
+[2020-05-25 11:24:07,053] - logger.py] - INFO: test_student36:查看开机状态并截图
+[2020-05-25 11:24:07,053] - logger.py] - INFO: test_student36:查看开机状态并截图
+[2020-05-25 11:24:07,053] - logger.py] - INFO: test_student35:查看开机状态并截图
+[2020-05-25 11:24:07,262] - logger.py] - INFO: test_student2:查看开机状态并截图
+[2020-05-25 11:24:07,473] - logger.py] - INFO: test_student24:查看开机状态并截图
+[2020-05-25 11:24:07,525] - logger.py] - INFO: test_student19:查看开机状态并截图
+[2020-05-25 11:24:07,525] - logger.py] - INFO: test_student38:查看开机状态并截图
+[2020-05-25 11:24:07,565] - logger.py] - INFO: test_student15:查看开机状态并截图
+[2020-05-25 11:24:07,575] - logger.py] - INFO: test_student28:查看开机状态并截图
+[2020-05-25 11:24:07,691] - logger.py] - INFO: test_student26:查看开机状态并截图
+[2020-05-25 11:24:07,743] - logger.py] - INFO: test_student17:查看开机状态并截图
+[2020-05-25 11:24:07,760] - logger.py] - INFO: test_student29:查看开机状态并截图
+[2020-05-25 11:24:07,803] - logger.py] - INFO: test_student30:查看开机状态并截图
+[2020-05-25 11:24:07,833] - logger.py] - INFO: test_student23:查看开机状态并截图
+[2020-05-25 11:24:07,847] - logger.py] - INFO: test_student13:查看开机状态并截图
+[2020-05-25 11:24:07,853] - logger.py] - INFO: test_student34:查看开机状态并截图
+[2020-05-25 11:24:07,858] - logger.py] - INFO: test_student27:查看开机状态并截图
+[2020-05-25 11:24:07,867] - logger.py] - INFO: test_student37:查看开机状态并截图
+[2020-05-25 11:24:07,891] - logger.py] - INFO: test_student9:查看开机状态并截图
+[2020-05-25 11:24:07,898] - logger.py] - INFO: test_student12:查看开机状态并截图
+[2020-05-25 11:24:07,921] - logger.py] - INFO: test_student18:查看开机状态并截图
+[2020-05-25 11:24:08,067] - logger.py] - INFO: test_student8:查看开机状态并截图
+[2020-05-25 11:24:09,457] - logger.py] - INFO: test_student39:切换至iframe
+[2020-05-25 11:24:10,097] - logger.py] - INFO: test_student40:点击"性能测试001"
+[2020-05-25 11:24:11,319] - logger.py] - INFO: test_student22:定时结束
+[2020-05-25 11:24:11,809] - logger.py] - INFO: test_student14:定时结束
+[2020-05-25 11:24:11,812] - logger.py] - INFO: test_student36:定时结束
+[2020-05-25 11:24:11,812] - logger.py] - INFO: test_student16:定时结束
+[2020-05-25 11:24:11,830] - logger.py] - INFO: test_student35:定时结束
+[2020-05-25 11:24:11,836] - logger.py] - INFO: test_student3:定时结束
+[2020-05-25 11:24:11,878] - logger.py] - INFO: test_student25:定时结束
+[2020-05-25 11:24:11,953] - logger.py] - INFO: test_student2:定时结束
+[2020-05-25 11:24:12,099] - logger.py] - INFO: test_student19:定时结束
+[2020-05-25 11:24:12,115] - logger.py] - INFO: test_student15:定时结束
+[2020-05-25 11:24:12,123] - logger.py] - INFO: test_student29:定时结束
+[2020-05-25 11:24:12,138] - logger.py] - INFO: test_student17:定时结束
+[2020-05-25 11:24:12,182] - logger.py] - INFO: test_student26:定时结束
+[2020-05-25 11:24:12,377] - logger.py] - INFO: test_student23:定时结束
+[2020-05-25 11:24:12,464] - logger.py] - INFO: test_student18:定时结束
+[2020-05-25 11:24:12,466] - logger.py] - INFO: test_student8:定时结束
+[2020-05-25 11:24:12,473] - logger.py] - INFO: test_student12:定时结束
+[2020-05-25 11:24:12,479] - logger.py] - INFO: test_student27:定时结束
+[2020-05-25 11:24:12,483] - logger.py] - INFO: test_student30:定时结束
+[2020-05-25 11:24:12,485] - logger.py] - INFO: test_student9:定时结束
+[2020-05-25 11:24:12,489] - logger.py] - INFO: test_student13:定时结束
+[2020-05-25 11:24:12,490] - logger.py] - INFO: test_student34:定时结束
+[2020-05-25 11:24:12,491] - logger.py] - INFO: test_student37:定时结束
+[2020-05-25 11:24:12,812] - logger.py] - INFO: test_student40:等待1秒
+[2020-05-25 11:24:13,813] - logger.py] - INFO: test_student40:点击"开始学习"按钮
+[2020-05-25 11:24:13,869] - logger.py] - INFO: test_student40:指定时间进行下一步
+[2020-05-25 11:24:13,869] - logger.py] - INFO: test_student40:切换至新窗体
+[2020-05-25 11:24:13,872] - logger.py] - INFO: test_student40:点击虚机1开机 按钮
+[2020-05-25 11:24:14,580] - logger.py] - INFO: test_student10:定时结束
+[2020-05-25 11:24:14,628] - logger.py] - INFO: test_student21:定时结束
+[2020-05-25 11:24:14,663] - logger.py] - INFO: test_student32:定时结束
+[2020-05-25 11:24:14,664] - logger.py] - INFO: test_student:定时结束
+[2020-05-25 11:24:14,674] - logger.py] - ERROR: test_student39:【切换至iframe】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 161, in to_iframe_xpath_script
+    element = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-25 11:24:14,674] - logger.py] - INFO: test_student39:查看开机状态并截图
+[2020-05-25 11:24:14,711] - logger.py] - INFO: test_student33:定时结束
+[2020-05-25 11:24:14,711] - logger.py] - INFO: test_student31:定时结束
+[2020-05-25 11:24:14,742] - logger.py] - INFO: test_student5:定时结束
+[2020-05-25 11:24:14,773] - logger.py] - INFO: test_student11:定时结束
+[2020-05-25 11:24:14,794] - logger.py] - INFO: test_student20:定时结束
+[2020-05-25 11:24:14,877] - logger.py] - INFO: test_student6:定时结束
+[2020-05-25 11:24:14,978] - logger.py] - INFO: test_student4:定时结束
+[2020-05-25 11:24:15,112] - logger.py] - INFO: test_student7:定时结束
+[2020-05-25 11:24:15,977] - logger.py] - INFO: test_student38:定时结束
+[2020-05-25 11:24:15,978] - logger.py] - INFO: test_student24:定时结束
+[2020-05-25 11:24:16,043] - logger.py] - INFO: test_student28:定时结束
+[2020-05-25 11:24:18,952] - logger.py] - ERROR: test_student40:【点击虚机1开机 按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-25 11:24:18,952] - logger.py] - INFO: test_student40:等4秒种
+[2020-05-25 11:24:22,953] - logger.py] - INFO: test_student40:切换至iframe
+[2020-05-25 11:24:28,049] - logger.py] - ERROR: test_student40:【切换至iframe】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 161, in to_iframe_xpath_script
+    element = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-25 11:24:28,050] - logger.py] - INFO: test_student40:查看开机状态并截图

@@ -1,0 +1,35 @@
+[2020-04-09 15:44:26,593] - logger.py] - INFO: test_student:点击"性能测试001"
+[2020-04-09 15:44:26,666] - logger.py] - INFO: test_student:等待1秒
+[2020-04-09 15:44:27,667] - logger.py] - INFO: test_student:点击"开始学习"按钮
+[2020-04-09 15:44:27,708] - logger.py] - INFO: test_student:指定时间进行下一步
+[2020-04-09 15:44:27,710] - logger.py] - INFO: test_student:切换至新窗体
+[2020-04-09 15:44:27,716] - logger.py] - INFO: test_student:点击虚机1开机 按钮
+[2020-04-09 15:44:32,797] - logger.py] - ERROR: test_student:【点击虚机1开机 按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 70, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-04-09 15:44:32,797] - logger.py] - INFO: test_student:等4秒种
+[2020-04-09 15:47:19,058] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-04-09 15:47:19,611] - logger.py] - INFO: test_student:点击"模拟演练"
+[2020-04-09 15:47:19,648] - logger.py] - INFO: test_student:修改任务
+[2020-04-09 15:47:20,409] - logger.py] - INFO: test_student:等一秒
+[2020-04-09 15:47:21,410] - logger.py] - INFO: test_student:点击"场景配置"
+[2020-04-09 15:47:21,449] - logger.py] - INFO: test_student:点击"接入配置"
+[2020-04-09 15:47:22,001] - logger.py] - INFO: test_student:点击"详情配置"
+[2020-04-09 15:47:22,615] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮
+[2020-04-09 15:51:19,409] - logger.py] - INFO: test_student:点击"性能测试001"
+[2020-04-09 15:51:19,485] - logger.py] - INFO: test_student:等待1秒
+[2020-04-09 15:51:20,486] - logger.py] - INFO: test_student:点击"开始学习"按钮
+[2020-04-09 15:51:20,525] - logger.py] - INFO: test_student:指定时间进行下一步
+[2020-04-09 15:51:20,528] - logger.py] - INFO: test_student:切换至新窗体
+[2020-04-09 15:51:20,535] - logger.py] - INFO: test_student:点击虚机1开机 按钮

@@ -1,0 +1,172 @@
+[2020-05-12 09:14:44,288] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-05-12 09:14:44,836] - logger.py] - INFO: test_student:点击"模拟演练"
+[2020-05-12 09:14:44,877] - logger.py] - INFO: test_student:修改任务
+[2020-05-12 09:14:45,597] - logger.py] - INFO: test_student:等一秒
+[2020-05-12 09:14:46,598] - logger.py] - INFO: test_student:点击"场景配置"
+[2020-05-12 09:14:46,645] - logger.py] - INFO: test_student:点击"接入配置"
+[2020-05-12 09:14:47,206] - logger.py] - INFO: test_student:点击"详情配置"
+[2020-05-12 09:14:47,805] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮
+[2020-05-12 09:14:50,880] - logger.py] - ERROR: test_student:【获取虚机名称前缀及按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 70, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 395, in batch_create_vm_script
+    self.select(select_2_locator,"index","12")   #选中镜像win7_日志虚机
+  File "E:\project\Start_in_batches\common\base.py", line 85, in select
+    Select(s).select_by_index(int(flag_value))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\select.py", line 103, in select_by_index
+    raise NoSuchElementException("Could not locate element with index %d" % index)
+selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with index 12
+
+
+[2020-05-12 09:14:50,881] - logger.py] - INFO: test_student:返回分组列表
+[2020-05-12 09:14:50,919] - logger.py] - ERROR: test_student:【返回分组列表】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 70, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "E:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <span data-v-73a1d177="">...</span> is not clickable at point (1560, 256). Other element would receive the click: <div data-v-73a1d177="" class="shadow" style=""></div>
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 10.0.17763 x86_64)
+
+
+[2020-05-12 09:14:50,919] - logger.py] - INFO: test_student:保存
+[2020-05-12 09:14:56,014] - logger.py] - ERROR: test_student:【保存】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 70, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-12 09:14:56,014] - logger.py] - INFO: test_student:等待6000秒
+[2020-05-12 09:15:33,157] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-05-12 09:15:34,234] - logger.py] - INFO: test_student:点击"模拟演练"
+[2020-05-12 09:15:34,271] - logger.py] - INFO: test_student:修改任务
+[2020-05-12 09:15:34,997] - logger.py] - INFO: test_student:等一秒
+[2020-05-12 09:15:35,998] - logger.py] - INFO: test_student:点击"场景配置"
+[2020-05-12 09:15:36,046] - logger.py] - INFO: test_student:点击"接入配置"
+[2020-05-12 09:15:36,605] - logger.py] - INFO: test_student:点击"详情配置"
+[2020-05-12 09:15:37,205] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮
+[2020-05-12 09:28:17,547] - logger.py] - INFO: test_student:返回分组列表
+[2020-05-12 09:28:17,656] - logger.py] - INFO: test_student:保存
+[2020-05-12 09:28:22,769] - logger.py] - ERROR: test_student:【保存】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 70, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-12 09:28:22,769] - logger.py] - INFO: test_student:等待6000秒
+[2020-05-12 16:33:31,103] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-05-12 16:33:51,063] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-05-12 16:33:51,860] - logger.py] - INFO: test_student:点击"模拟演练"
+[2020-05-12 16:33:51,898] - logger.py] - INFO: test_student:修改任务
+[2020-05-12 16:33:52,625] - logger.py] - INFO: test_student:等一秒
+[2020-05-12 16:33:53,626] - logger.py] - INFO: test_student:点击"场景配置"
+[2020-05-12 16:33:53,687] - logger.py] - INFO: test_student:点击"接入配置"
+[2020-05-12 16:33:54,259] - logger.py] - INFO: test_student:点击"详情配置"
+[2020-05-12 16:33:54,864] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮
+[2020-05-12 16:33:54,864] - logger.py] - ERROR: test_student:【获取虚机名称前缀及按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 423, in batch_create_vm_log_script
+    search_locator= (value["type"],search_for_elements.replace("flag","%d" %i+2))
+TypeError: must be str, not int
+
+[2020-05-12 16:33:54,865] - logger.py] - INFO: test_student:返回分组列表
+[2020-05-12 16:33:55,511] - logger.py] - INFO: test_student:保存
+[2020-05-12 16:34:00,633] - logger.py] - ERROR: test_student:【保存】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-12 16:34:00,633] - logger.py] - INFO: test_student:等待6000秒
+[2020-05-12 16:35:34,298] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-05-12 16:35:34,864] - logger.py] - INFO: test_student:点击"模拟演练"
+[2020-05-12 16:35:34,931] - logger.py] - INFO: test_student:修改任务
+[2020-05-12 16:35:35,656] - logger.py] - INFO: test_student:等一秒
+[2020-05-12 16:35:36,657] - logger.py] - INFO: test_student:点击"场景配置"
+[2020-05-12 16:35:36,705] - logger.py] - INFO: test_student:点击"接入配置"
+[2020-05-12 16:35:37,264] - logger.py] - INFO: test_student:点击"详情配置"
+[2020-05-12 16:35:37,881] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮
+[2020-05-12 16:35:37,882] - logger.py] - ERROR: test_student:【获取虚机名称前缀及按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 423, in batch_create_vm_log_script
+    search_locator= (value["type"],search_for_elements.replace("flag","%d" %i+2))
+TypeError: must be str, not int
+
+[2020-05-12 16:35:37,882] - logger.py] - INFO: test_student:返回分组列表
+[2020-05-12 16:35:38,544] - logger.py] - INFO: test_student:保存
+[2020-05-12 16:35:43,643] - logger.py] - ERROR: test_student:【保存】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-12 16:35:43,644] - logger.py] - INFO: test_student:等待6000秒
+[2020-05-12 16:37:10,309] - logger.py] - INFO: test_student:点击"网络演训"
+[2020-05-12 16:37:10,860] - logger.py] - INFO: test_student:点击"模拟演练"
+[2020-05-12 16:37:10,913] - logger.py] - INFO: test_student:修改任务
+[2020-05-12 16:37:11,639] - logger.py] - INFO: test_student:等一秒
+[2020-05-12 16:37:12,640] - logger.py] - INFO: test_student:点击"场景配置"
+[2020-05-12 16:37:12,685] - logger.py] - INFO: test_student:点击"接入配置"
+[2020-05-12 16:37:13,247] - logger.py] - INFO: test_student:点击"详情配置"
+[2020-05-12 16:37:13,863] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮
+[2020-05-12 16:45:34,423] - logger.py] - INFO: test_student:返回分组列表
+[2020-05-12 16:45:34,521] - logger.py] - INFO: test_student:保存
+[2020-05-12 16:45:39,648] - logger.py] - ERROR: test_student:【保存】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-12 16:45:39,648] - logger.py] - INFO: test_student:等待6000秒

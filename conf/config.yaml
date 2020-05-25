@@ -1,0 +1,6 @@
+test_url: www.baidu.com
+cze_url: http://192.168.234.80
+czx_url: https://192.168.50.65/#/login
+start_interval: 0   #设置程序运行后的开始时间，以分钟为单位
+over_interval: 12   #设置程序运行后的结束时间，以分钟为单位
+value: 1  #创建名称后缀起始值，如：002、003，用于任务场景创建时不可重名

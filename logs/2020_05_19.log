@@ -1,0 +1,100 @@
+[2020-05-19 10:33:27,603] - logger.py] - INFO: test_student:点击"选修课程"菜单
+[2020-05-19 10:33:32,710] - logger.py] - ERROR: test_student:【点击"选修课程"菜单】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-19 10:33:32,711] - logger.py] - INFO: test_student:点击"BurpSuite工具指南"
+[2020-05-19 10:33:37,804] - logger.py] - ERROR: test_student:【点击"BurpSuite工具指南"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-19 10:33:37,804] - logger.py] - INFO: test_student:点击"学习"按钮
+[2020-05-19 10:33:42,879] - logger.py] - ERROR: test_student:【点击"学习"按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-19 10:33:42,879] - logger.py] - INFO: test_student:
+[2020-05-19 10:33:43,880] - logger.py] - INFO: test_student:固定时间进行下一步
+[2020-05-19 10:34:00,894] - logger.py] - INFO: test_student:切换至新窗体
+[2020-05-19 10:34:00,914] - logger.py] - INFO: test_student:点击开机按钮
+[2020-05-19 10:34:06,006] - logger.py] - ERROR: test_student:【点击开机按钮】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 35, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-19 10:34:06,006] - logger.py] - INFO: test_student:等4秒钟
+[2020-05-19 10:34:10,007] - logger.py] - INFO: test_student:切换至iframe
+[2020-05-19 10:34:15,098] - logger.py] - ERROR: test_student:【切换至iframe】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 71, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 161, in to_iframe_xpath_script
+    element = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-05-19 10:34:15,098] - logger.py] - INFO: test_student:C:\Users\safecode\Desktop\cze_kecheng_open_vm\
+[2020-05-19 10:36:59,299] - logger.py] - INFO: test_student:点击"选修课程"菜单
+[2020-05-19 10:36:59,346] - logger.py] - INFO: test_student:点击"BurpSuite工具指南"
+[2020-05-19 10:36:59,916] - logger.py] - INFO: test_student:点击"学习"按钮
+[2020-05-19 10:37:00,473] - logger.py] - INFO: test_student:
+[2020-05-19 10:37:01,475] - logger.py] - INFO: test_student:固定时间进行下一步
+[2020-05-19 10:37:01,477] - logger.py] - INFO: test_student:切换至新窗体
+[2020-05-19 10:37:01,482] - logger.py] - INFO: test_student:点击开机按钮
+[2020-05-19 10:37:02,529] - logger.py] - INFO: test_student:等4秒钟
+[2020-05-19 10:37:06,530] - logger.py] - INFO: test_student:切换至iframe
+[2020-05-19 10:37:08,153] - logger.py] - INFO: test_student:C:\Users\safecode\Desktop\cze_kecheng_open_vm\
+[2020-05-19 10:37:12,524] - logger.py] - INFO: test_student:固定时间结束
+[2020-05-19 10:42:56,011] - logger.py] - INFO: test_student:点击"选修课程"菜单
+[2020-05-19 10:42:56,055] - logger.py] - INFO: test_student:点击"BurpSuite工具指南"
+[2020-05-19 10:42:56,628] - logger.py] - INFO: test_student:点击"学习"按钮
+[2020-05-19 10:42:57,187] - logger.py] - INFO: test_student:
+[2020-05-19 10:42:58,188] - logger.py] - INFO: test_student:固定时间进行下一步
+[2020-05-19 10:42:58,190] - logger.py] - INFO: test_student:切换至新窗体
+[2020-05-19 10:42:58,194] - logger.py] - INFO: test_student:点击开机按钮
+[2020-05-19 10:42:59,244] - logger.py] - INFO: test_student:等4秒钟
+[2020-05-19 10:43:03,245] - logger.py] - INFO: test_student:切换至iframe
+[2020-05-19 10:43:03,267] - logger.py] - INFO: test_student:查看开机状态并截图
+[2020-05-19 10:43:03,917] - logger.py] - INFO: test_student:固定时间结束
