@@ -142,7 +142,7 @@
 # driver = webdriver.Chrome(chrome_options=options)
 # driver.maximize_window()
 # driver.get("https://www.baidu.com")
-
+#
 import openpyxl,os,datetime
 
 # # real_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -152,15 +152,24 @@ import openpyxl,os,datetime
 # # wb.save(data_path)
 # base_dir = os.path.join("D:/","//report","//text.ini")
 # print(base_dir)
-date1 = "2019-10-24"  #10 2 11 8 12 8 1 12
-date2 = "2020-1-10"
-date4 = "2020-4-3"
-date3 = "2020-5-11"
+# date1 = "2019-10-24"  #10 2 11 8 12 8 1 12
+# date2 = "2020-1-10"
+# date4 = "2020-4-3"
+# date3 = "2020-5-11"
+#
+# date1 = datetime.datetime.strptime(date1, "%Y-%m-%d")
+# date2 = datetime.datetime.strptime(date2, "%Y-%m-%d")
+# date3 = datetime.datetime.strptime(date3, "%Y-%m-%d")
+# date4 = datetime.datetime.strptime(date4, "%Y-%m-%d")
+# print(date2-date1)
+# print(date3-date4)
+start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-date1 = datetime.datetime.strptime(date1, "%Y-%m-%d")
-date2 = datetime.datetime.strptime(date2, "%Y-%m-%d")
-date3 = datetime.datetime.strptime(date3, "%Y-%m-%d")
-date4 = datetime.datetime.strptime(date4, "%Y-%m-%d")
-print(date2-date1)
-print(date3-date4)
-print(78+9-30)
+print(start_time,type(start_time))
+
+time = {}
+time2 = {"test_student":{"start_time":"2020-05-27 18:35:51","end_time":"2020-05-27 19:35:55"}}
+start_time = datetime.datetime.strptime(time2["test_student"]["start_time"],'%Y-%m-%d %H:%M:%S')
+end_time = datetime.datetime.strptime(time2["test_student"]["end_time"],'%Y-%m-%d %H:%M:%S')
+print(start_time,end_time)
+print(end_time-start_time)

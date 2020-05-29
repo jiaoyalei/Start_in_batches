@@ -67,8 +67,11 @@ class Script_Case():
        for value in data:
            try:
                self.log.info("%s:%s" %(self.username,value["notes"]))
+               # if value['execution_type'] == "timing_execution":
+               #     print("%s：已准备就绪，%s开始执行！"%(self.username,value["send_value"]))
                loca = (value["type"],value["value"])   #获取元素操作的元素定位方式及定位值
                self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+
            except Exception:
                error = traceback.format_exc()
                self.log.error("%s:【%s】" %(self.username,value["notes"])+error)

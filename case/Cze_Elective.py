@@ -18,7 +18,9 @@ class demo():
         self.url = Common_Read().get_config_data("cze_url") #由配置文件读取测试地址
         self.data_value = Common_Read(data_path, 'user_elective').dict_data() #由数据文件读取用户信息并转换为字典数据
         Common_Read().add_waittime_excel()
-    @threads(20)
+        Common_Read().clear_screenshot(r"C:\Users\safecode\Desktop\cze_elective_open_vm")
+        Common_Read().clear_screenshot(r"C:\Users\safecode\Desktop\elective_open")
+    @threads(30)
     def login(self,i):
         #加载登录时的账号密码数据
 
@@ -44,7 +46,7 @@ class demo():
 
 if __name__ == "__main__":
     d = demo()
-    for i in range(1):
+    for i in range(30):
         d.login(i)
         time.sleep(5)
 

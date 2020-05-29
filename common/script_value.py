@@ -1,5 +1,5 @@
 from common.base import Base
-import time
+import time,datetime
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import os,traceback
@@ -12,10 +12,12 @@ from common.common_rwcd import Common_Read
 start_value = Common_Read().get_config_data("value")
 x = False
 find_result = True
-# username = ""
 vm_name = {}
 start_time = ""
 over_time = ""
+open_vm_time_all = {}
+open_vm_start_time = {}
+open_vm_end_time = {}
 
 
 class Script_value(Base):
@@ -25,6 +27,8 @@ class Script_value(Base):
         self.driver = driver
         global start_time
         global over_time
+        global open_vm_time
+        open_vm_time = {}
         if time_data != "":
             start_time = time_data[0]['start_time']
             over_time = time_data[0]['over_time']
@@ -32,7 +36,13 @@ class Script_value(Base):
 
     def click_script(self,locator,value="",username=""):
         '''页面元素单击操作'''
+        global open_vm_start_time
+        if value["notes"] == "点击开机按钮":
+            start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            open_vm_start_time.update(eval("{'%s':'%s'}"%(username,start_time)))
         self.click(locator)
+        if value["notes"] == "点击开机按钮":
+            self.driver.get_screenshot_as_file(r"%s%s_open.png" %(value["screenshot_url"],username))
         return self.driver
 
     def click_random_script(self,locator,value="",username=""):
@@ -197,34 +207,50 @@ class Script_value(Base):
         return self.driver
 
     def get_text_and_status_script(self,locator,value="",username=""):
-        '''每5秒进行一次页面内容查找，并判断内容结果'''
+        '''每秒进行一次页面内容查找，并判断内容结果'''
+        global open_vm_end_time
+        global open_vm_start_time
         find_text_time = int(value["time_out"])
         start_value = 0
         error = ""
+        flag = True
         while start_value < find_text_time:
-            start_value = start_value + 5
+            start_value = start_value + 1
             try:
                 text_result = self.find(locator)
                 text_value = text_result.text
                 if value["check"] in text_value:
-                    self.driver.get_screenshot_as_file(r"%s%s_%ds_success.png" %(value["screenshot_url"],username,start_value))
-                    print("用户：%s-->%s-->:已于%d秒内开机！" %(username,text_value,start_value))
+                    flag = False
+                    end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    open_vm_end_time.update(eval("{'%s':'%s'}"%(username,end_time)))
+                    start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+                    end_time = datetime.datetime.strptime(open_vm_end_time[username],'%Y-%m-%d %H:%M:%S')
+                    time_value = end_time - start_time
+                    self.driver.get_screenshot_as_file(r"%s%s_%ss_success.png" %(value["screenshot_url"],username,time_value.seconds))
+                    print("用户：%s-->%s-->:开机用时%s秒" %(username,text_value,time_value.seconds))
+                    print("%s-start:%s,-end:%s"%(username,open_vm_start_time[username],open_vm_end_time[username]))
                     break
-                # else:
-                #     print("用户：%s-->%d秒内开机结果为:%s" %(username,start_value,text_value))
+
             except Exception as e:
                 error = traceback.format_exc()
+                print(error)
                 try:
                     self.switch_content_script()
                     loca = ("xpath","html/body/div/div/div[2]/div[2]/iframe")
                     element = self.find(loca)
                     self.switch_to(element)
+
                 except Exception as e:
                     pass
-            time.sleep(4)
-        if start_value >= find_text_time:
-            self.driver.get_screenshot_as_file(r"%s%s_%ds_fail.png" %(value["screenshot_url"],username,start_value))
-            print("用户%s:开机异常！错误截图位置：%s%s_%ds_fail.png" %(username,value["screenshot_url"],username,start_value))
+            time.sleep(1)
+        if flag == True:
+            end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            open_vm_end_time.update(eval("{'%s':'%s'}"%(username,end_time)))
+            end_time = datetime.datetime.strptime(open_vm_end_time[username],'%Y-%m-%d %H:%M:%S')
+            start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+            time_value = end_time - start_time
+            self.driver.get_screenshot_as_file(r"%s%s_%ss_fail.png" %(value["screenshot_url"],username,time_value.seconds))
+            print("用户%s:开机异常！错误截图位置：%s%s_%ss_fail.png" %(username,value["screenshot_url"],username,time_value.seconds))
         if error !="":
             self.log.error("%s:【%s】" %(username,value["notes"])+error)
 
@@ -468,6 +494,7 @@ class Script_value(Base):
                 time.sleep(5)
             else:
                 print("用户%s接入点：创建失败！提示信息为：%s" %(user_name,result))
+
     def canvas_move_click_script(self,locator,value="",username=""):
         x = int(value["types"])
         y = int(value["values"])
