@@ -29,10 +29,10 @@ class Currency_Script():
         self.time_data =  data2.dict_data()
 
 
-    def currency_scirpt_case(self,username):
+    def currency_scirpt_case(self,username,path="",screenshot_path=""):
 
         #实例化浏览器操作类
-        script = Script_Case(self.driver,username,self.time_data)
+        script = Script_Case(self.driver,username,self.time_data,path,screenshot_path)
 
         #调用浏览器操作执行函数
         self.driver = script.script_case(self.data_value)

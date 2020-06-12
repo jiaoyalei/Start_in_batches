@@ -37,7 +37,6 @@ class LoginPage():
         #调用浏览器中基本操作事件函数，如：send(定位元素并填入数据)、click(定位元素，并点击）
         self.b.send(list_value["loca1"],username)
         self.b.send(list_value["loca2"],password)
-        time.sleep(5)
         # flag = True
         # while flag == True:
         #     text = self.b.find(list_value["loca3"]).text()
@@ -48,25 +47,24 @@ class LoginPage():
         # self.b.send(list_value["loca3"],"1111")
         # yzm_text = Yzm_get(self.driver).yzm_text_get(image_url)
         # self.b.send(list_value["loca3"],yzm_text)
-        self.b.click(list_value["loca4"])
-        time.sleep(5)
-
-
-        # falg = True
-        # while falg:
-        #     try:
-        #         loca = ("xpath",".//*[@id='main']/div/div[1]/div/div[3]/div/div[1]/a")
-        #         self.b.find(loca)
-        #         falg = False
-        #     except Exception as e:
-        #         time.sleep(0.5)
-        #         flag = self.b.find(list_value["loca5"])
-        #         flag.clear()
-        #         yzm_text = Yzm_get(self.driver).yzm_text_get(image_url)
-        #         self.b.send(list_value["loca3"],yzm_text)
-        #         self.b.click(list_value["loca4"])
-        #         time.sleep(0.5)
-
+        # self.b.click(list_value["loca4"])
+        # time.sleep(5)
+        falg = True
+        while falg:
+            try:
+                loca = ("xpath",".//*[@id='main']/div/div[1]/div/div[3]/div/div[1]/a")
+                self.b.find(loca)
+                falg = False
+            except Exception as e:
+                time.sleep(0.5)
+                flag = self.b.find(list_value["loca5"])
+                flag.clear()
+                image_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+                image_url = os.path.join(image_path,'image')
+                yzm_text = Yzm_get(self.driver).yzm_text_get(image_url)
+                self.b.send(list_value["loca3"],yzm_text)
+                self.b.click(list_value["loca4"])
+                time.sleep(0.5)
         return self.driver
 
     def login_test(self,username,password):

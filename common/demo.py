@@ -162,14 +162,43 @@ import openpyxl,os,datetime
 # date3 = datetime.datetime.strptime(date3, "%Y-%m-%d")
 # date4 = datetime.datetime.strptime(date4, "%Y-%m-%d")
 # print(date2-date1)
-# print(date3-date4)
-start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+# # print(date3-date4)
+# value = 3
+# start_time = (datetime.datetime.now()+datetime.timedelta(minutes=value)).strftime('%Y-%m-%d %H:%M:%S')
+#
+# print(start_time,type(start_time))
+#
+# time = {}
+# time2 = {"test_student":{"start_time":"2020-05-27 18:35:51","end_time":"2020-05-27 18:35:55"}}
+# start_time = datetime.datetime.strptime(time2["test_student"]["start_time"],'%Y-%m-%d %H:%M:%S')
+# new_start_time = (start_time+datetime.timedelta(minutes=2)).strftime('%Y-%m-%d %H:%M:%S')
+# end_time = datetime.datetime.strptime(time2["test_student"]["end_time"],'%Y-%m-%d %H:%M:%S')
+# end_time = end_time
+# haha = end_time - start_time
+# print(haha.seconds)
+# print(new_start_time)
+# from tomorrow import threads
+# import time
+# from selenium import webdriver
+# class demo():
+#
+#     @threads(5)
+#     def add(self,value):
+#         print(value)
+#         driver = webdriver.Chrome()
+#         driver.maximize_window()
+#
+#
+# if __name__ == "__main__":
+#     check = demo()
+#     for i in range(5):
+#         check.add(i)
 
-print(start_time,type(start_time))
 
-time = {}
-time2 = {"test_student":{"start_time":"2020-05-27 18:35:51","end_time":"2020-05-27 19:35:55"}}
-start_time = datetime.datetime.strptime(time2["test_student"]["start_time"],'%Y-%m-%d %H:%M:%S')
-end_time = datetime.datetime.strptime(time2["test_student"]["end_time"],'%Y-%m-%d %H:%M:%S')
-print(start_time,end_time)
-print(end_time-start_time)
+import os,datetime,time
+
+time_value = int(time.time())
+kc_path = r"C:\Users\safecode\Desktop\jietu\kecheng"
+kc_jt_path = os.path.join(kc_path,"kecheng%d\\"%time_value)
+if not os.path.exists(kc_jt_path): os.mkdir(kc_jt_path)
+print(kc_jt_path)

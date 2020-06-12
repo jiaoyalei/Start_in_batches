@@ -4,7 +4,8 @@ from tomorrow import threads
 from page.currency_page import Currency_Script
 from common.select_webdriver import Select_Webdriver
 from common.common_rwcd import Common_Read as CR
-from docx import Document
+import threading
+
 
 
 
@@ -18,25 +19,13 @@ class Batch_Open_Curriculum_Vm():
         real_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         data_path = os.path.join(os.path.join(real_path,"data"),"cze_data.xls") #获取数据文件路径
         self.data_value = CR(data_path, 'user_elective').dict_data() #由数据文件读取用户信息并转换为字典数据
-        time_value = int(time.time())
-        kc_path = r"C:\Users\safecode\Desktop\jietu\kecheng"
-        self.kc_jt_path = os.path.join(kc_path,"kecheng%d\\"%time_value)
-        if not os.path.exists(self.kc_jt_path): os.mkdir(self.kc_jt_path)
-
 
         CR().add_waittime_excel()  #复制生成data.xls文件，存放定时时间数据
 
-        self.path = os.path.join(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))),"test_report"),"课程性能测试报告%d.docx" %time_value)
-        print(self.path)
-        self.doc = Document()
-        self.doc.add_heading('性能测试开机结果',0)
-        self.doc.save(self.path)
         #清除上次程序运行产生的所有截图
         CR().clear_screenshot(r"C:\Users\safecode\Desktop\cze_curriculum_open_vm")
         CR().clear_screenshot(r"C:\Users\safecode\Desktop\curriculum_open")
-
-
-    @threads(80)
+    # @threads(80)
     def curriculum_vm_script(self,i):
         #加载登录时的账号密码数据
         user_data = self.data_value[i]  # i  用户信息下标
@@ -52,13 +41,20 @@ class Batch_Open_Curriculum_Vm():
 
         #学习课件打开虚机操作
         Course = Currency_Script(driver,execl_name="cze_data.xls",sheet_name="cze_Learm_Curriculum")
-        driver = Course.currency_scirpt_case(username,self.path,self.kc_jt_path)
+        driver = Course.currency_scirpt_case(username)
 
 
 
 if __name__ == "__main__":
     script = Batch_Open_Curriculum_Vm()
-    for i in range(2):
-        script.curriculum_vm_script(i)
-        time.sleep(3)
+    threads = []
+    value = {}
+    for i in range(1):
+        value[i] = threading.Thread(target=script.curriculum_vm_script,args=(i,))
+        threads.append(value[i])
+    for t in threads:
+        t.setDaemon(True)
+        time.sleep(5)
+        t.start()
+    t.join()
 

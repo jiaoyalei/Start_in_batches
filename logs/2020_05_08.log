@@ -1,8 +1,0 @@
-[2020-05-08 09:43:54,782] - logger.py] - INFO: test_student:点击"网络演训"
-[2020-05-08 09:43:56,134] - logger.py] - INFO: test_student:点击"模拟演练"
-[2020-05-08 09:43:56,204] - logger.py] - INFO: test_student:修改任务
-[2020-05-08 09:43:57,468] - logger.py] - INFO: test_student:等一秒
-[2020-05-08 09:43:58,469] - logger.py] - INFO: test_student:点击"场景配置"
-[2020-05-08 09:43:58,538] - logger.py] - INFO: test_student:点击"接入配置"
-[2020-05-08 09:43:59,242] - logger.py] - INFO: test_student:点击"详情配置"
-[2020-05-08 09:43:59,808] - logger.py] - INFO: test_student:获取虚机名称前缀及按钮

@@ -6,7 +6,7 @@ import os
 from page.currency_page import Currency_Script
 from common.select_webdriver import Select_Webdriver
 from common.common_rwcd import Common_Read
-
+from docx import Document
 
 class demo():
 
@@ -20,6 +20,13 @@ class demo():
         Common_Read().add_waittime_excel()
         Common_Read().clear_screenshot(r"C:\Users\safecode\Desktop\cze_elective_open_vm")
         Common_Read().clear_screenshot(r"C:\Users\safecode\Desktop\elective_open")
+        time_value = int(time.time())
+        self.path = os.path.join(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))),"test_report"),"课程性能测试报告%d.docx" %time_value)
+        print(self.path)
+        self.doc = Document()
+        self.doc.add_heading('性能测试开机结果',0)
+        self.doc.save(self.path)
+
     @threads(30)
     def login(self,i):
         #加载登录时的账号密码数据
@@ -37,7 +44,7 @@ class demo():
 
         #学习课件打开虚机操作
         Course = Currency_Script(driver,execl_name="cze_data.xls",sheet_name="cze_Learm_Elective")
-        driver = Course.currency_scirpt_case(data_value_demo["username"])
+        driver = Course.currency_scirpt_case(data_value_demo["username"],self.path)
         return driver
 
 
@@ -46,7 +53,7 @@ class demo():
 
 if __name__ == "__main__":
     d = demo()
-    for i in range(30):
+    for i in range(2):
         d.login(i)
         time.sleep(5)
 

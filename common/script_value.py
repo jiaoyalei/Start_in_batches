@@ -7,6 +7,8 @@ from common.logger import Log
 from selenium import webdriver
 import pyautogui as pag
 from common.common_rwcd import Common_Read
+from docx import Document
+from docx.shared import Inches
 
 
 start_value = Common_Read().get_config_data("value")
@@ -23,21 +25,25 @@ open_vm_end_time = {}
 class Script_value(Base):
     '''使用selenium界面操作封装方法'''
 
-    def __init__(self,driver,time_data=""):
+    def __init__(self,driver,time_data="",path="",screenshot_path=""):
         self.driver = driver
         global start_time
         global over_time
         global open_vm_time
+        self.path = path
+        self.screenshot_path = screenshot_path
         open_vm_time = {}
         if time_data != "":
             start_time = time_data[0]['start_time']
             over_time = time_data[0]['over_time']
         self.log = Log()
 
+
     def click_script(self,locator,value="",username=""):
         '''页面元素单击操作'''
         global open_vm_start_time
-        if value["notes"] == "点击开机按钮":
+        # if value["notes"] == "点击开机按钮":
+        if value["notes"] == "点击新建任务":
             start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             open_vm_start_time.update(eval("{'%s':'%s'}"%(username,start_time)))
         self.click(locator)
@@ -210,12 +216,14 @@ class Script_value(Base):
         '''每秒进行一次页面内容查找，并判断内容结果'''
         global open_vm_end_time
         global open_vm_start_time
-        find_text_time = int(value["time_out"])
-        start_value = 0
+        minutes_value = int(value["time_out"])
+        start_value = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+        find_text_time = (start_time+datetime.timedelta(minutes=minutes_value)).strftime('%Y-%m-%d %H:%M:%S')
         error = ""
         flag = True
         while start_value < find_text_time:
-            start_value = start_value + 1
+            start_value = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             try:
                 text_result = self.find(locator)
                 text_value = text_result.text
@@ -223,23 +231,26 @@ class Script_value(Base):
                     flag = False
                     end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     open_vm_end_time.update(eval("{'%s':'%s'}"%(username,end_time)))
-                    start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
                     end_time = datetime.datetime.strptime(open_vm_end_time[username],'%Y-%m-%d %H:%M:%S')
                     time_value = end_time - start_time
-                    self.driver.get_screenshot_as_file(r"%s%s_%ss_success.png" %(value["screenshot_url"],username,time_value.seconds))
-                    print("用户：%s-->%s-->:开机用时%s秒" %(username,text_value,time_value.seconds))
-                    print("%s-start:%s,-end:%s"%(username,open_vm_start_time[username],open_vm_end_time[username]))
+                    self.driver.get_screenshot_as_file(r"%s%s_%ss_success.png" %(self.screenshot_path,username,time_value.seconds))
+                    msg = "用户：%s-->%s-->:开机用时%s秒 【start:%s,end:%s】" %(username,text_value,time_value.seconds,
+                                                                              open_vm_start_time[username],
+                                                                              open_vm_end_time[username])
+                    self.doc = Document(self.path)
+                    self.doc.add_paragraph(msg)
+                    self.doc.add_picture(r"%s%s_%ss_success.png" %(self.screenshot_path,username,time_value.seconds),width=Inches(6))
+                    self.doc.save(self.path)
+                    self.log.info(msg)
+                    print(msg)
                     break
-
             except Exception as e:
                 error = traceback.format_exc()
-                print(error)
                 try:
                     self.switch_content_script()
                     loca = ("xpath","html/body/div/div/div[2]/div[2]/iframe")
                     element = self.find(loca)
                     self.switch_to(element)
-
                 except Exception as e:
                     pass
             time.sleep(1)
@@ -249,8 +260,14 @@ class Script_value(Base):
             end_time = datetime.datetime.strptime(open_vm_end_time[username],'%Y-%m-%d %H:%M:%S')
             start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
             time_value = end_time - start_time
-            self.driver.get_screenshot_as_file(r"%s%s_%ss_fail.png" %(value["screenshot_url"],username,time_value.seconds))
-            print("用户%s:开机异常！错误截图位置：%s%s_%ss_fail.png" %(username,value["screenshot_url"],username,time_value.seconds))
+            self.driver.get_screenshot_as_file(r"%s%s_%ss_fail.png" %(self.screenshot_path,username,time_value.seconds))
+            msg = "用户%s:开机异常！错误截图位置：%s%s_%ss_fail.png" %(username,self.screenshot_path,username,time_value.seconds)
+            self.doc = Document(self.path)
+            self.doc.add_paragraph(msg)
+            self.doc.add_picture(r"%s%s_%ss_fail.png" %(self.screenshot_path,username,time_value.seconds),width=Inches(6))
+            self.doc.save(self.path)
+            self.log.info(msg)
+            print(msg)
         if error !="":
             self.log.error("%s:【%s】" %(username,value["notes"])+error)
 
@@ -259,7 +276,6 @@ class Script_value(Base):
         global vm_name
         if value["check"] in vm_name[username]:
             print("用户：%s-->%s-->:已于5秒内开机！" %(username,vm_name[username]))
-
         else:
             print("用户：%s-->5秒内开机结果为:%s" %(username,vm_name[username]))
         return self.driver
@@ -269,7 +285,6 @@ class Script_value(Base):
         global vm_name
         if value["check"] in vm_name[username]:
             print("用户：%s-->%s-->已开机！" %(username,vm_name[username]))
-
         else:
             print("用户：%s-->%s-->未开机！" %(username,vm_name[username]))
         return self.driver
@@ -504,16 +519,6 @@ class Script_value(Base):
         # ActionChains(self.driver).move_to_element(canvas).move_by_offset(x,y).pause(2).click().perform()
 
 if __name__ == "__main__":
-    # config_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    # delDir = os.path.join(config_path,'data')
-    # delList = []
-    # delList = os.listdir(delDir)
-    # for f in delList:
-    #     filePath = os.path.join( delDir, f )
-    #     if f == "data.xls":
-    #         os.remove(filePath)
     driver = webdriver.Chrome()
     driver.get("https://192.168.50.66")
     s = Script_value(driver)
-    locator = ("xpath","")
-    s.is_element_exist_click_plus_script()

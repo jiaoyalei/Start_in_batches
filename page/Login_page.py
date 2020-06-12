@@ -33,7 +33,7 @@ class LoginPage():
         #调用浏览器中基本操作事件函数，如：send(定位元素并填入数据)、click(定位元素，并点击）
         self.b.send(list_value["loca1"],username)
         self.b.send(list_value["loca2"],password)
-        time.sleep(1)
+        time.sleep(8)
         self.b.click(list_value["loca3"])
         # self.driver.get_screenshot_as_file(r"C:\Users\safecode\Desktop\selenium_bug\%s_login_Result.png" %username)
         time.sleep(1)

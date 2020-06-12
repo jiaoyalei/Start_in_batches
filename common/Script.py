@@ -7,11 +7,13 @@ import os,traceback
 
 class Script_Case():
     #界面操作执行类'''
-    def __init__(self,driver,username,time_data=""):
+    def __init__(self,driver,username,time_data="",path="",screenshot_path=""):
+        self.path = path
+        self.screenshot_path = screenshot_path
         self.time_data = time_data
         self.driver = driver
         self.username = username
-        self.script_value = Script_value(self.driver,self.time_data)
+        self.script_value = Script_value(self.driver,self.time_data,self.path,self.screenshot_path)
         self.log = Log()
 
     def clear_data(self):

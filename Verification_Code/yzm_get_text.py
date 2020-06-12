@@ -70,10 +70,10 @@ if __name__ == "__main__":
     image_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     image_url = os.path.join(image_path,'image')
     driver = webdriver.Chrome()
-    driver.get("http://192.168.50.66")
+    driver.get("http://192.168.50.65")
     driver.maximize_window()
 
-    driver.find_element_by_xpath(".//*[@id='main']/div/div/div[2]/form/div[2]/div/div[1]/input").send_keys("test_student")
+    driver.find_element_by_xpath(".//*[@id='main']/div/div/div[2]/form/div[2]/div/div[1]/input").send_keys("test_log18")
     driver.find_element_by_xpath(".//*[@id='main']/div/div/div[2]/form/div[3]/div/div/input").send_keys("qaz123456")
     image_demo = Yzm_get(driver)
     text = image_demo.yzm_text_get(image_url)

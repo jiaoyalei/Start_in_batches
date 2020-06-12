@@ -1,0 +1,2174 @@
+[2020-06-11 15:04:42,429] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:04:42,463] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:04:42,531] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:04:42,839] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:04:42,947] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:04:42,996] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:04:43,044] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:04:43,096] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:04:43,163] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:04:43,211] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:05:40,876] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:05:45,961] - logger.py] - ERROR: test_log18:【点击"网络演训"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 145, in move_script
+    self.move(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 73, in move
+    mouse = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:05:45,961] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:05:51,068] - logger.py] - ERROR: test_log18:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 52, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:05:51,068] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:05:56,173] - logger.py] - ERROR: test_log18:【点击"新建任务"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 52, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:05:56,173] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:09:06,825] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:09:06,853] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:09:06,916] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:09:07,131] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:09:07,238] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:09:07,300] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:09:07,349] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:09:07,432] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:09:07,517] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:09:07,655] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:12:03,350] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:12:06,321] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:12:06,345] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:12:06,400] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:12:06,612] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:12:06,716] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:12:06,768] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:12:06,823] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:12:06,879] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:12:06,930] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:12:06,976] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:12:08,438] - logger.py] - ERROR: test_log18:【点击"网络演训"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 145, in move_script
+    self.move(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 73, in move
+    mouse = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:08,438] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:12:13,553] - logger.py] - ERROR: test_log18:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 52, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:13,553] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:12:18,641] - logger.py] - ERROR: test_log18:【点击"新建任务"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 52, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:18,641] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:12:23,715] - logger.py] - ERROR: test_log18:【输入任务名称】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 133, in send_random_script
+    self.send(locator,(value['send_value']+"00"+str(start_value)))
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:23,716] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:12:28,827] - logger.py] - ERROR: test_log18:【输入任务标签】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 127, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:28,828] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:12:33,904] - logger.py] - ERROR: test_log18:【输入任务描述】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 127, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:33,904] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:12:38,991] - logger.py] - ERROR: test_log18:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 73, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 52, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:12:38,991] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:14:28,371] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:14:28,393] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:14:28,446] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:14:28,647] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:14:28,768] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:14:28,820] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:14:28,872] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:14:28,936] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:14:28,995] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:14:29,043] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:19:43,895] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:19:44,474] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:19:44,512] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:19:45,208] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:19:45,331] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:19:45,404] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:19:45,452] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:19:45,501] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:19:45,546] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:19:45,595] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:23:16,315] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:23:16,343] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:23:16,415] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:23:16,632] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:23:16,745] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:23:16,803] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:23:16,850] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:23:16,928] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:23:16,994] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:23:17,060] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:26:59,624] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:26:59,651] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:26:59,728] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:26:59,934] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:27:00,030] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:27:00,102] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:27:00,158] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:27:00,242] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:27:00,329] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:27:00,395] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:29:57,418] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:30:02,123] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:30:02,194] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:30:02,392] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:30:02,495] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:30:02,505] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:30:02,528] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:30:02,550] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:30:02,595] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:30:02,600] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:30:02,696] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:30:02,699] - logger.py] - ERROR: test_log18:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:30:02,699] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:30:02,700] - logger.py] - ERROR: test_log18:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:30:02,701] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:30:02,702] - logger.py] - ERROR: test_log18:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:30:02,829] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:30:02,944] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:30:03,012] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:30:03,056] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:30:03,058] - logger.py] - ERROR: test_log2:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:30:03,058] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:30:03,060] - logger.py] - ERROR: test_log2:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:30:03,060] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:30:03,061] - logger.py] - ERROR: test_log2:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:30:03,062] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:30:03,063] - logger.py] - ERROR: test_log2:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 937, in _read1
+    self._update_crc(data)
+  File "E:\python\lib\zipfile.py", line 865, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'word/_rels/document.xml.rels'
+
+[2020-06-11 15:33:14,254] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:33:14,364] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:33:14,386] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:33:14,465] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:33:14,657] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:33:14,758] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:33:14,810] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:33:14,858] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:33:14,930] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:33:14,994] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:33:15,060] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:33:15,127] - logger.py] - INFO: test_log18:
+[2020-06-11 15:33:51,379] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:33:51,405] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:33:51,406] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:33:51,429] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:33:51,431] - logger.py] - ERROR: test_log18:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591860807.docx'
+
+[2020-06-11 15:33:51,432] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:33:51,433] - logger.py] - ERROR: test_log18:【点击"新建任务"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591860807.docx'
+
+[2020-06-11 15:33:51,433] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:33:51,477] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:33:51,697] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:33:51,812] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:33:51,857] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:33:51,906] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:33:51,977] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:33:52,044] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:33:52,107] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:33:52,177] - logger.py] - INFO: test_log2:
+[2020-06-11 15:33:56,508] - logger.py] - ERROR: test_log18:【输入任务名称】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 130, in send_random_script
+    self.send(locator,(value['send_value']+"00"+str(start_value)))
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:33:56,509] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:34:01,609] - logger.py] - ERROR: test_log18:【输入任务标签】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:34:01,609] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:34:06,698] - logger.py] - ERROR: test_log18:【输入任务描述】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:34:06,698] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:35:33,157] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:35:33,184] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:35:33,237] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:35:33,261] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:35:33,269] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:35:33,278] - logger.py] - ERROR: test_log2:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 110, in _walk_phys_parts
+    for partname, blob, reltype, srels in next_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 915, in _read1
+    data += self._read2(n - len(data))
+  File "E:\python\lib\zipfile.py", line 950, in _read2
+    raise EOFError
+EOFError
+
+[2020-06-11 15:35:33,278] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:35:33,279] - logger.py] - ERROR: test_log2:【点击"新建任务"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591860908.docx'
+
+[2020-06-11 15:35:33,279] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:35:33,505] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:35:33,617] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:35:33,669] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:35:33,712] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:35:33,778] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:35:33,845] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:35:33,909] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:35:33,991] - logger.py] - INFO: test_log18:
+[2020-06-11 15:35:38,364] - logger.py] - ERROR: test_log2:【输入任务名称】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 130, in send_random_script
+    self.send(locator,(value['send_value']+"00"+str(start_value)))
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:35:38,365] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:35:43,453] - logger.py] - ERROR: test_log2:【输入任务标签】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:35:43,453] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:35:48,533] - logger.py] - ERROR: test_log2:【输入任务描述】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:35:48,533] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:35:53,642] - logger.py] - ERROR: test_log2:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:35:53,643] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:35:58,756] - logger.py] - ERROR: test_log2:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:35:58,757] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:36:03,861] - logger.py] - ERROR: test_log2:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:36:03,861] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:36:08,960] - logger.py] - ERROR: test_log2:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:36:08,960] - logger.py] - INFO: test_log2:
+[2020-06-11 15:41:33,981] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:41:33,982] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:41:34,009] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:41:34,009] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:41:34,093] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:41:34,093] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:41:34,322] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:41:34,328] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:41:34,469] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:41:34,492] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:41:34,534] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:41:34,547] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:41:34,583] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:41:34,586] - logger.py] - ERROR: test_log2:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,586] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:41:34,589] - logger.py] - ERROR: test_log2:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,590] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:41:34,592] - logger.py] - ERROR: test_log2:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,592] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:41:34,594] - logger.py] - ERROR: test_log2:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,594] - logger.py] - INFO: test_log2:
+[2020-06-11 15:41:34,597] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:41:34,598] - logger.py] - ERROR: test_log18:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,599] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:41:34,600] - logger.py] - ERROR: test_log18:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,600] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:41:34,602] - logger.py] - ERROR: test_log18:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,602] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:41:34,604] - logger.py] - ERROR: test_log18:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 104, in _walk_phys_parts
+    part_srels = PackageReader._srels_for(phys_reader, partname)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 83, in _srels_for
+    rels_xml = phys_reader.rels_xml_for(source_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 129, in rels_xml_for
+    rels_xml = self.blob_for(source_uri.rels_uri)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1307, in read
+    with self.open(name, "r", pwd) as fp:
+  File "E:\python\lib\zipfile.py", line 1366, in open
+    raise BadZipFile("Bad magic number for file header")
+zipfile.BadZipFile: Bad magic number for file header
+
+[2020-06-11 15:41:34,604] - logger.py] - INFO: test_log18:
+[2020-06-11 15:42:39,831] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:42:39,857] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:42:39,900] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:42:39,924] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:42:39,927] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:42:40,018] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:42:40,180] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:42:40,309] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:42:40,350] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:42:40,408] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:42:40,432] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:42:40,457] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:42:40,484] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:42:40,531] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:42:40,532] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:42:40,600] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:42:40,610] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:42:40,620] - logger.py] - ERROR: test_log18:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 36, in from_file
+    phys_reader, pkg_srels, content_types
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 69, in _load_serialized_parts
+    for partname, blob, reltype, srels in part_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 110, in _walk_phys_parts
+    for partname, blob, reltype, srels in next_walker:
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 105, in _walk_phys_parts
+    blob = phys_reader.blob_for(partname)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 108, in blob_for
+    return self._zipf.read(pack_uri.membername)
+  File "E:\python\lib\zipfile.py", line 1308, in read
+    return fp.read()
+  File "E:\python\lib\zipfile.py", line 833, in read
+    buf += self._read1(self.MAX_N)
+  File "E:\python\lib\zipfile.py", line 915, in _read1
+    data += self._read2(n - len(data))
+  File "E:\python\lib\zipfile.py", line 950, in _read2
+    raise EOFError
+EOFError
+
+[2020-06-11 15:42:40,621] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:42:40,622] - logger.py] - ERROR: test_log18:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591861335.docx'
+
+[2020-06-11 15:42:40,622] - logger.py] - INFO: test_log18:
+[2020-06-11 15:42:40,697] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:42:40,782] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:42:40,848] - logger.py] - INFO: test_log2:
+[2020-06-11 15:45:04,447] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:45:04,468] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:45:04,474] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:45:04,492] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:45:04,493] - logger.py] - ERROR: test_log18:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591861480.docx'
+
+[2020-06-11 15:45:04,494] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:45:04,494] - logger.py] - ERROR: test_log18:【点击"新建任务"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591861480.docx'
+
+[2020-06-11 15:45:04,494] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:45:04,543] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:45:04,743] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:45:04,864] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:45:04,911] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:45:04,954] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:45:05,035] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:45:05,111] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:45:05,174] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:45:05,242] - logger.py] - INFO: test_log2:
+[2020-06-11 15:45:09,571] - logger.py] - ERROR: test_log18:【输入任务名称】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 130, in send_random_script
+    self.send(locator,(value['send_value']+"00"+str(start_value)))
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:09,572] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:45:14,663] - logger.py] - ERROR: test_log18:【输入任务标签】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:14,663] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:45:19,739] - logger.py] - ERROR: test_log18:【输入任务描述】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:19,739] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:45:24,882] - logger.py] - ERROR: test_log18:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:24,882] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:45:30,008] - logger.py] - ERROR: test_log18:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:30,009] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:45:35,110] - logger.py] - ERROR: test_log18:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:35,111] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:45:40,243] - logger.py] - ERROR: test_log18:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:45:40,243] - logger.py] - INFO: test_log18:
+[2020-06-11 15:47:09,340] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:47:09,362] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:47:09,367] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:47:09,390] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:47:09,393] - logger.py] - ERROR: test_log18:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 43, in click_script
+    self.doc = Document(self.path)
+  File "E:\python\lib\site-packages\docx\api.py", line 25, in Document
+    document_part = Package.open(docx).main_document_part
+  File "E:\python\lib\site-packages\docx\opc\package.py", line 128, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\pkgreader.py", line 32, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "E:\python\lib\site-packages\docx\opc\phys_pkg.py", line 31, in __new__
+    "Package not found at '%s'" % pkg_file
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'E:\project\Start_in_batches\test_report\性能测试报告1591861605.docx'
+
+[2020-06-11 15:47:09,393] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:47:09,444] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:47:09,643] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:47:09,761] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:47:09,809] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:47:09,859] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:47:09,931] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:47:09,992] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:47:10,050] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:47:10,126] - logger.py] - INFO: test_log2:
+[2020-06-11 15:47:14,540] - logger.py] - ERROR: test_log18:【点击"新建任务"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:14,541] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:47:19,650] - logger.py] - ERROR: test_log18:【输入任务名称】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 130, in send_random_script
+    self.send(locator,(value['send_value']+"00"+str(start_value)))
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:19,650] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:47:24,787] - logger.py] - ERROR: test_log18:【输入任务标签】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:24,787] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:47:29,903] - logger.py] - ERROR: test_log18:【输入任务描述】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 124, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:29,903] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:47:35,031] - logger.py] - ERROR: test_log18:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:35,031] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:47:40,163] - logger.py] - ERROR: test_log18:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:40,163] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:47:45,314] - logger.py] - ERROR: test_log18:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:45,314] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:47:50,439] - logger.py] - ERROR: test_log18:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 74, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 49, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 15:47:50,439] - logger.py] - INFO: test_log18:
+[2020-06-11 15:50:37,424] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:50:37,451] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:50:37,525] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:50:37,712] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:50:37,822] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:50:37,879] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:50:37,932] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:50:38,013] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:50:38,093] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:50:38,158] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:50:38,225] - logger.py] - INFO: test_log18:
+[2020-06-11 15:50:39,469] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:50:39,496] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:50:39,558] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:50:39,764] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:50:39,860] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:50:39,909] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:50:39,953] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:50:40,031] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:50:40,092] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:50:40,151] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:50:40,209] - logger.py] - INFO: test_log2:
+[2020-06-11 15:52:23,036] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 15:52:23,063] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 15:52:23,125] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 15:52:23,333] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 15:52:23,445] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 15:52:23,495] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 15:52:23,543] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 15:52:23,614] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 15:52:23,676] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 15:52:23,736] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 15:52:23,809] - logger.py] - INFO: test_log18:
+[2020-06-11 15:52:25,620] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 15:52:25,649] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 15:52:25,709] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 15:52:25,907] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 15:52:26,015] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 15:52:26,066] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 15:52:26,114] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 15:52:26,179] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 15:52:26,258] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 15:52:26,324] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 15:52:26,392] - logger.py] - INFO: test_log2:
+[2020-06-11 16:34:29,037] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 16:34:29,060] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 16:34:29,109] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 16:34:29,780] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 16:34:29,889] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 16:34:29,942] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 16:34:29,991] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 16:34:30,059] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 16:34:30,114] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 16:34:30,155] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 16:34:30,206] - logger.py] - INFO: test_log18:
+[2020-06-11 16:34:30,207] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 219, in get_text_and_status_script
+    start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+KeyError: 'test_log18'
+
+[2020-06-11 16:34:30,207] - logger.py] - INFO: test_log18:
+[2020-06-11 16:34:31,034] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 16:34:31,057] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 16:34:31,109] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 16:34:31,782] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 16:34:31,877] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 16:34:31,924] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 16:34:31,967] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 16:34:32,005] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 16:34:32,056] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 16:34:32,104] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 16:34:32,138] - logger.py] - INFO: test_log2:
+[2020-06-11 16:34:32,138] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 219, in get_text_and_status_script
+    start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+KeyError: 'test_log2'
+
+[2020-06-11 16:34:32,138] - logger.py] - INFO: test_log2:
+[2020-06-11 16:38:07,173] - logger.py] - INFO: test_log18:点击网络演训
+[2020-06-11 16:38:07,196] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 16:38:07,242] - logger.py] - INFO: test_log18:点击"新建任务"
+[2020-06-11 16:38:07,438] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 16:38:07,551] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 16:38:07,609] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 16:38:07,670] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 16:38:07,732] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 16:38:07,770] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 16:38:07,804] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 16:38:07,837] - logger.py] - INFO: test_log18:
+[2020-06-11 16:38:07,838] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 220, in get_text_and_status_script
+    start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+KeyError: 'test_log18'
+
+[2020-06-11 16:38:07,838] - logger.py] - INFO: test_log18:
+[2020-06-11 16:38:09,174] - logger.py] - INFO: test_log2:点击网络演训
+[2020-06-11 16:38:09,202] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 16:38:09,255] - logger.py] - INFO: test_log2:点击"新建任务"
+[2020-06-11 16:38:09,449] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 16:38:09,546] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 16:38:09,596] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 16:38:09,643] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 16:38:09,692] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 16:38:09,739] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 16:38:09,775] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 16:38:09,810] - logger.py] - INFO: test_log2:
+[2020-06-11 16:38:09,811] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 220, in get_text_and_status_script
+    start_time = datetime.datetime.strptime(open_vm_start_time[username],'%Y-%m-%d %H:%M:%S')
+KeyError: 'test_log2'
+
+[2020-06-11 16:38:09,811] - logger.py] - INFO: test_log2:
+[2020-06-11 16:40:18,895] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 16:40:18,924] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 16:40:18,971] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 16:40:19,664] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 16:40:19,759] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 16:40:19,812] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 16:40:19,863] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 16:40:19,904] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 16:40:19,955] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 16:40:20,018] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 16:40:20,071] - logger.py] - INFO: test_log18:
+[2020-06-11 16:40:20,868] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 16:40:20,895] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 16:40:20,938] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 16:40:21,615] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 16:40:21,717] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 16:40:21,763] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 16:40:21,807] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 16:40:21,855] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 16:40:21,904] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 16:40:21,956] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 16:40:22,007] - logger.py] - INFO: test_log2:
+[2020-06-11 16:41:38,678] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：test_log18_80s_fail.png
+[2020-06-11 16:41:38,678] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:41:38,678] - logger.py] - INFO: test_log18:
+[2020-06-11 16:41:40,526] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：test_log2_80s_fail.png
+[2020-06-11 16:41:40,527] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:41:40,527] - logger.py] - INFO: test_log2:
+[2020-06-11 16:44:09,745] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 16:44:09,767] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 16:44:09,804] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 16:44:10,501] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 16:44:10,602] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 16:44:10,654] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 16:44:10,702] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 16:44:10,757] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 16:44:10,805] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 16:44:10,855] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 16:44:10,904] - logger.py] - INFO: test_log18:
+[2020-06-11 16:44:11,711] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 16:44:16,804] - logger.py] - ERROR: test_log2:【点击"网络演训"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 141, in move_script
+    self.move(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 73, in move
+    mouse = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:44:16,805] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 16:44:19,075] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 16:44:19,697] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 16:44:19,805] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 16:44:19,856] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 16:44:19,908] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 16:44:19,955] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 16:44:20,004] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 16:44:20,054] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 16:44:20,105] - logger.py] - INFO: test_log2:
+[2020-06-11 16:45:29,634] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：test_log18_80s_fail.png
+[2020-06-11 16:45:29,634] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:45:29,634] - logger.py] - INFO: test_log18:
+[2020-06-11 16:45:38,771] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：test_log2_79s_fail.png
+[2020-06-11 16:45:38,771] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:45:38,771] - logger.py] - INFO: test_log2:
+[2020-06-11 16:46:51,508] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 16:46:51,535] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 16:46:51,587] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 16:46:52,315] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 16:46:52,421] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 16:46:52,471] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 16:46:52,522] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 16:46:52,581] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 16:46:52,620] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 16:46:52,673] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 16:46:52,721] - logger.py] - INFO: test_log18:
+[2020-06-11 16:46:53,511] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 16:46:53,535] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 16:46:53,575] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 16:46:54,253] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 16:46:54,352] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 16:46:54,400] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 16:46:54,448] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 16:46:54,487] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 16:46:54,537] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 16:46:54,587] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 16:46:54,637] - logger.py] - INFO: test_log2:
+[2020-06-11 16:48:11,358] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591865187\test_log18_79s_fail.png
+[2020-06-11 16:48:11,358] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:48:11,359] - logger.py] - INFO: test_log18:
+[2020-06-11 16:48:13,204] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591865187\test_log2_79s_fail.png
+[2020-06-11 16:48:13,204] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 16:48:13,205] - logger.py] - INFO: test_log2:
+[2020-06-11 16:59:25,325] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 16:59:25,348] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 16:59:25,408] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 16:59:26,022] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 16:59:26,136] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 16:59:26,199] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 16:59:26,255] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 16:59:26,340] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 16:59:26,412] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 16:59:26,491] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 16:59:26,554] - logger.py] - INFO: test_log18:
+[2020-06-11 16:59:27,434] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 16:59:27,462] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 16:59:27,503] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 16:59:28,224] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 16:59:28,342] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 16:59:28,400] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 16:59:28,449] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 16:59:28,487] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 16:59:28,537] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 16:59:28,587] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 16:59:28,637] - logger.py] - INFO: test_log2:
+[2020-06-11 17:00:45,251] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591865941\test_log18_79s_fail.png
+[2020-06-11 17:00:45,252] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:00:45,252] - logger.py] - INFO: test_log18:
+[2020-06-11 17:00:47,319] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591865941\test_log2_79s_fail.png
+[2020-06-11 17:00:47,320] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:00:47,320] - logger.py] - INFO: test_log2:
+[2020-06-11 17:07:55,832] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:07:55,861] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:07:55,901] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:07:56,584] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:07:56,682] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:07:56,732] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:07:56,778] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:07:56,825] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:07:56,885] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:07:56,936] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:07:56,985] - logger.py] - INFO: test_log18:
+[2020-06-11 17:07:58,042] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 17:07:58,064] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 17:07:58,106] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 17:07:58,715] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 17:07:58,819] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 17:07:58,870] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 17:07:58,916] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 17:07:58,968] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 17:07:59,019] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 17:07:59,070] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 17:07:59,120] - logger.py] - INFO: test_log2:
+[2020-06-11 17:09:15,537] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 268, in get_text_and_status_script
+    picture.Width = 300
+AttributeError: 'NoneType' object has no attribute 'Width'
+
+[2020-06-11 17:09:15,537] - logger.py] - INFO: test_log18:
+[2020-06-11 17:09:17,784] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 268, in get_text_and_status_script
+    picture.Width = 300
+AttributeError: 'NoneType' object has no attribute 'Width'
+
+[2020-06-11 17:09:17,785] - logger.py] - INFO: test_log2:
+[2020-06-11 17:16:14,606] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:16:14,634] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:16:14,684] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:16:15,407] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:16:15,502] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:16:15,552] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:16:15,605] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:16:15,651] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:16:15,702] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:16:15,751] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:16:15,804] - logger.py] - INFO: test_log18:
+[2020-06-11 17:16:16,699] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 17:16:16,729] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 17:16:16,768] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 17:16:17,450] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 17:16:17,548] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 17:16:17,599] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 17:16:17,647] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 17:16:17,702] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 17:16:17,751] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 17:16:17,804] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 17:16:17,853] - logger.py] - INFO: test_log2:
+[2020-06-11 17:17:34,360] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591866950\test_log18_79s_fail.png
+[2020-06-11 17:17:34,361] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:17:34,361] - logger.py] - INFO: test_log18:
+[2020-06-11 17:17:36,391] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591866950\test_log2_80s_fail.png
+[2020-06-11 17:17:36,391] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:17:36,391] - logger.py] - INFO: test_log2:
+[2020-06-11 17:21:37,575] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:21:37,603] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:21:37,650] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:21:38,360] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:21:38,465] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:21:38,517] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:21:38,569] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:21:38,626] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:21:38,668] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:21:38,724] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:21:38,769] - logger.py] - INFO: test_log18:
+[2020-06-11 17:21:39,833] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 17:21:39,856] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 17:21:39,904] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 17:21:40,608] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 17:21:40,711] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 17:21:40,765] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 17:21:40,818] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 17:21:40,867] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 17:21:40,917] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 17:21:40,967] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 17:21:41,019] - logger.py] - INFO: test_log2:
+[2020-06-11 17:22:57,431] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591867273\test_log18_80s_fail.png
+[2020-06-11 17:22:57,432] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:22:57,432] - logger.py] - INFO: test_log18:
+[2020-06-11 17:22:59,619] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591867273\test_log2_80s_fail.png
+[2020-06-11 17:22:59,619] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:22:59,619] - logger.py] - INFO: test_log2:
+[2020-06-11 17:23:52,117] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:23:52,143] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:23:52,183] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:23:52,797] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:23:52,903] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:23:52,955] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:23:53,009] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:23:53,051] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:23:53,100] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:23:53,151] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:23:53,200] - logger.py] - INFO: test_log18:
+[2020-06-11 17:25:11,909] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 266, in get_text_and_status_script
+    self.doc.add_picture(image_path_or_stream=r"%s%s_%ss_fail.jpg" %(self.screenshot_path,username,time_value.seconds),width=300,height=300)
+  File "E:\python\lib\site-packages\docx\document.py", line 72, in add_picture
+    return run.add_picture(image_path_or_stream, width, height)
+  File "E:\python\lib\site-packages\docx\text\run.py", line 62, in add_picture
+    inline = self.part.new_pic_inline(image_path_or_stream, width, height)
+  File "E:\python\lib\site-packages\docx\parts\story.py", line 56, in new_pic_inline
+    rId, image = self.get_or_add_image(image_descriptor)
+  File "E:\python\lib\site-packages\docx\parts\story.py", line 29, in get_or_add_image
+    image_part = self._package.get_or_add_image_part(image_descriptor)
+  File "E:\python\lib\site-packages\docx\package.py", line 31, in get_or_add_image_part
+    return self.image_parts.get_or_add_image_part(image_descriptor)
+  File "E:\python\lib\site-packages\docx\package.py", line 74, in get_or_add_image_part
+    image = Image.from_file(image_descriptor)
+  File "E:\python\lib\site-packages\docx\image\image.py", line 46, in from_file
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\safecode\\Desktop\\jietu\\kecheng\\kecheng1591867408\\test_log18_79s_fail.jpg'
+
+[2020-06-11 17:25:11,909] - logger.py] - INFO: test_log18:
+[2020-06-11 17:26:37,759] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:26:37,786] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:26:37,833] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:26:38,455] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:26:38,553] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:26:38,599] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:26:38,642] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:26:38,684] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:26:38,734] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:26:38,784] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:26:38,834] - logger.py] - INFO: test_log18:
+[2020-06-11 17:27:57,495] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591867574\test_log18_80s_fail.png
+[2020-06-11 17:27:57,495] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:27:57,495] - logger.py] - INFO: test_log18:
+[2020-06-11 17:31:44,901] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:31:44,924] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:31:44,967] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:31:45,585] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:31:45,697] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:31:45,746] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:31:45,793] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:31:45,834] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:31:45,884] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:31:45,934] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:31:45,984] - logger.py] - INFO: test_log18:
+[2020-06-11 17:33:04,592] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591867881\test_log18_80s_fail.png
+[2020-06-11 17:33:04,592] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:33:04,593] - logger.py] - INFO: test_log18:
+[2020-06-11 17:34:03,883] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:34:09,016] - logger.py] - ERROR: test_log18:【点击"网络演训"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 141, in move_script
+    self.move(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 73, in move
+    mouse = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:09,016] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:34:14,104] - logger.py] - ERROR: test_log18:【点击"模拟演练"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 48, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:14,105] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:34:19,212] - logger.py] - ERROR: test_log18:【点击新建任务】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 48, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:19,212] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:34:24,289] - logger.py] - ERROR: test_log18:【输入任务名称】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 129, in send_random_script
+    self.send(locator,(value['send_value']+"00"+str(start_value)))
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:24,290] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:34:29,397] - logger.py] - ERROR: test_log18:【输入任务标签】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 123, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:29,398] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:34:34,520] - logger.py] - ERROR: test_log18:【输入任务描述】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 123, in send_script
+    self.send(locator,value['send_value'])
+  File "E:\project\Start_in_batches\common\base.py", line 41, in send
+    self.find(locator).send_keys(_text)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:34,521] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:34:39,667] - logger.py] - ERROR: test_log18:【选中日志监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 48, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:39,668] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:34:44,774] - logger.py] - ERROR: test_log18:【选中全程录屏】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 48, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:44,774] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:34:49,841] - logger.py] - ERROR: test_log18:【选中同屏监控】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 48, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:49,841] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:34:54,965] - logger.py] - ERROR: test_log18:【选中手动控制 】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 48, in click_script
+    self.click(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 44, in click
+    self.find(locator).click()
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:34:54,966] - logger.py] - INFO: test_log18:
+[2020-06-11 17:35:29,353] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591868020\test_log18_74s_fail.png
+[2020-06-11 17:35:29,353] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:35:29,353] - logger.py] - INFO: test_log18:
+[2020-06-11 17:37:16,606] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:37:16,633] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:37:16,683] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:37:17,370] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:37:17,470] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:37:17,530] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:37:17,584] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:37:17,633] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:37:17,683] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:37:17,733] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:37:17,784] - logger.py] - INFO: test_log18:
+[2020-06-11 17:38:36,372] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591868212\test_log18_80s_fail.png
+[2020-06-11 17:38:36,372] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:38:36,372] - logger.py] - INFO: test_log18:
+[2020-06-11 17:41:41,642] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:41:46,733] - logger.py] - ERROR: test_log18:【点击"网络演训"】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\Script.py", line 75, in script_case
+    self.driver = script_type[value['execution_type']](loca,value,self.username)#调用操作函数
+  File "E:\project\Start_in_batches\common\script_value.py", line 141, in move_script
+    self.move(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 73, in move
+    mouse = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:41:46,733] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:41:50,832] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:41:51,545] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:41:51,656] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:41:51,716] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:41:51,773] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:41:51,873] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:41:51,916] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:41:51,967] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:41:52,024] - logger.py] - INFO: test_log18:
+[2020-06-11 17:43:10,575] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591868477\test_log18_80s_fail.png
+[2020-06-11 17:43:10,575] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 227, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:43:10,576] - logger.py] - INFO: test_log18:
+[2020-06-11 17:46:35,021] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:46:35,050] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:46:35,099] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:46:35,822] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:46:35,931] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:46:35,982] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:46:36,036] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:46:36,083] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:46:36,133] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:46:36,183] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:46:36,235] - logger.py] - INFO: test_log18:
+[2020-06-11 17:47:54,921] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591868771\test_log18_79s_fail.png
+[2020-06-11 17:47:54,922] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 228, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:47:54,922] - logger.py] - INFO: test_log18:
+[2020-06-11 17:51:23,982] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 17:51:24,006] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 17:51:24,052] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 17:51:24,764] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 17:51:24,870] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 17:51:24,928] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 17:51:24,972] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 17:51:25,015] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 17:51:25,065] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 17:51:25,116] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 17:51:25,165] - logger.py] - INFO: test_log18:
+[2020-06-11 17:52:43,728] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591869060\test_log18_79s_fail.png
+[2020-06-11 17:52:43,729] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 228, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 17:52:43,729] - logger.py] - INFO: test_log18:
+[2020-06-11 18:05:23,265] - logger.py] - INFO: test_log18:点击"网络演训"
+[2020-06-11 18:05:23,287] - logger.py] - INFO: test_log18:点击"模拟演练"
+[2020-06-11 18:05:23,330] - logger.py] - INFO: test_log18:点击新建任务
+[2020-06-11 18:05:24,024] - logger.py] - INFO: test_log18:输入任务名称
+[2020-06-11 18:05:24,138] - logger.py] - INFO: test_log18:输入任务标签
+[2020-06-11 18:05:24,200] - logger.py] - INFO: test_log18:输入任务描述
+[2020-06-11 18:05:24,253] - logger.py] - INFO: test_log18:选中日志监控
+[2020-06-11 18:05:24,303] - logger.py] - INFO: test_log18:选中全程录屏
+[2020-06-11 18:05:24,348] - logger.py] - INFO: test_log18:选中同屏监控
+[2020-06-11 18:05:24,408] - logger.py] - INFO: test_log18:选中手动控制 
+[2020-06-11 18:05:24,464] - logger.py] - INFO: test_log18:
+[2020-06-11 18:05:25,369] - logger.py] - INFO: test_log2:点击"网络演训"
+[2020-06-11 18:05:25,396] - logger.py] - INFO: test_log2:点击"模拟演练"
+[2020-06-11 18:05:25,447] - logger.py] - INFO: test_log2:点击新建任务
+[2020-06-11 18:05:26,128] - logger.py] - INFO: test_log2:输入任务名称
+[2020-06-11 18:05:26,234] - logger.py] - INFO: test_log2:输入任务标签
+[2020-06-11 18:05:26,287] - logger.py] - INFO: test_log2:输入任务描述
+[2020-06-11 18:05:26,345] - logger.py] - INFO: test_log2:选中日志监控
+[2020-06-11 18:05:26,411] - logger.py] - INFO: test_log2:选中全程录屏
+[2020-06-11 18:05:26,464] - logger.py] - INFO: test_log2:选中同屏监控
+[2020-06-11 18:05:26,514] - logger.py] - INFO: test_log2:选中手动控制 
+[2020-06-11 18:05:26,565] - logger.py] - INFO: test_log2:
+[2020-06-11 18:06:43,064] - logger.py] - INFO: 用户test_log18:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591869899\test_log18_79s_fail.png
+[2020-06-11 18:06:43,064] - logger.py] - ERROR: test_log18:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 228, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 18:06:43,064] - logger.py] - INFO: test_log18:
+[2020-06-11 18:06:45,113] - logger.py] - INFO: 用户test_log2:开机异常！错误截图位置：C:\Users\safecode\Desktop\jietu\kecheng\kecheng1591869899\test_log2_79s_fail.png
+[2020-06-11 18:06:45,114] - logger.py] - ERROR: test_log2:【】Traceback (most recent call last):
+  File "E:\project\Start_in_batches\common\script_value.py", line 228, in get_text_and_status_script
+    text_result = self.find(locator)
+  File "E:\project\Start_in_batches\common\base.py", line 20, in find
+    element = WebDriverWait(self.driver, int(time_out), 0.5).until(lambda x: x.find_element(*locator))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+[2020-06-11 18:06:45,114] - logger.py] - INFO: test_log2:
